@@ -1,7 +1,7 @@
 # Nobel_Laureates
 Exploring data about Nobel Laureates with R
 
-This project will have several aspects
+This project will have several aspects:
 
 - Querying the Rest API provided by the Nobel Prize Organisation to gather information about Nobel Laureates and the prizes that they won
 - Flattening the JSON data so that it can be saved as a CSV file

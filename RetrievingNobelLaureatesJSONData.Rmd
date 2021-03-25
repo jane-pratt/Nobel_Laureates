@@ -1,0 +1,635 @@
+---
+title: "Retrieving Nobel Laureates JSON Data"
+author: "Jane Pratt"
+date: "24/03/2021"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    number_sections: true
+    theme: cosmo
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+
+The Nobel Prize Organisation provide an API which can be used to obtain information about all of the individuals and organisations that have won a Nobel Prize, along with some related information such as organisations that they were affiliated with, the prize awarded and the reason for awarding the prize. This will provide the core data for later exploration and visualisation.
+
+## Goals
+
+The goals for this part of the project are:
+
+- To retrieve json data about all Nobel Laureates, using the laureates API provided by the Nobel Prize Organization
+- To flatten this data from nested json in to data frames
+- To save the data in csv files
+
+## Libraries
+
+A number of libraries are used to retrieve and process the data:
+
+```{r libraries, message = FALSE}
+library(dplyr)
+library(magrittr)
+library(jsonlite)
+library(readr)
+library(stringr)
+```
+
+# Web Query Function
+
+(See the References section to get more details about the API call and the format of the returned results)
+
+First we need a function to retrieve the Nobel Laureates data from the web, using the laureates API. The query will return a maximum of 25 records at a time, so we'll need to gather the records in stages and combine them together.
+
+```{r get_laureate_json_from_web_function}
+get_laureate_json_from_web <- function(start_pos = 0) {
+  first_query_string <- 
+    'http://api.nobelprize.org/2.0/laureates?sort=asc&format=json&limit=25'
+  offset_query_string <- 
+    'http://api.nobelprize.org/2.0/laureates?offset=..startpos..&sort=asc&format=json&limit=25'
+  
+  if(start_pos == 0){query_string <- first_query_string}
+  else{
+    query_string <- offset_query_string %>%
+      str_replace('..startpos..', as.character(start_pos))
+    }
+  return(fromJSON(txt = query_string))
+  }
+```
+
+(Note: the default `limit` is 25, so this variable should not technically be required. However, I found that if neither `offset` or `limit` are set, then some variables are missing from the returned data. To prevent this problem, `limit` is set for every call to the api.)
+
+First let's check that the function works correctly with no `start_pos` parameter (this is used for the first batch of records).
+
+```{r check1_get_laureate_json_from_web_function}
+  check1 <- get_laureate_json_from_web()
+  str(check1$laureates, max.level = 1)
+```
+
+Next, let's check that the function works as expected when setting `start_pos` - this is used for everything after the first batch of records.
+
+```{r check2_get_laureate_json_from_web_function}
+  check2 <- get_laureate_json_from_web(75)
+  str(check2$laureates, max.level = 1)
+```
+
+# Retrieving and combining laureate data from the web
+
+Now that we have a function to retrieve a set of laureate records, the next stage is to use this function to retrieve data for all of the laureates. The meta data included with the results includes a `count` which identifies the total number of records.
+
+```{r}
+check2$meta
+```
+
+The `offset` sets the number of records which are skipped before any data is returned, so `offset` of 1 starts returning data from the 2nd record. We'll need to retrieve records while `offset` is less than the total number of records.  
+
+The dplyr function `bind_rows()` is able to join the results, included nested data frames and lists:
+
+```{r get_combined_json_laureate_data_function}
+get_combined_json_laureate_data <- function(){
+  nobel_laureates <- NULL
+  start_pos <- 0
+  new_data <- get_laureate_json_from_web()
+  total_laureates <- new_data$meta$count  
+  
+  while (new_data$meta$offset < total_laureates){
+    nobel_laureates <- bind_rows(nobel_laureates, new_data$laureates)
+    start_pos <- start_pos + 25
+    new_data <- get_laureate_json_from_web(start_pos)   
+  }
+
+  return(nobel_laureates)
+}
+```
+
+Now we have a function to retrieve and combine all of the laureate data, let's check the results:
+```{r}
+combined_laureates <- get_combined_json_laureate_data()
+str(combined_laureates, max.level=1)
+```
+
+# Flattening the combined data
+
+In order to save the data in csv format, it needs to be in a flat format ie no nested data frames or lists, so we'll need to flatten the data.
+
+## Separating the nobelPrizes data
+
+The nobelPrizes variable contains a list of data frames with information about the prizes won by each laureate:
+```{r nobelPrizes_data in_combined_laureates}
+  combined_laureates$nobelPrizes[[1]]
+```
+
+There are a few people and organisations that have won more than one prize, so those data frames have multiple rows and the total number of prizes is greater than the total number of laureates:
+
+```{r row_count_for_laureates_v_prizes}
+  nrow(combined_laureates)
+  nrow(bind_rows(combined_laureates$nobelPrizes))
+```
+
+Because there can be more than one prize per laureate, we can't just flatten the nobelPrizes list and join the columns directly to the laureates data using the `cbind` function. Instead, we'll need to generate a new data frame that contains the prize information along with the corresponding laureate id This will allow us to join the prize and laureate data frames by id. The jsonlite `flatten` function will flatten the nested data frames, but not the lists - we'll tackle those later:
+
+```{r get_laureate_prizes_function}
+get_laureate_prizes <- function(id, nobelPrizes){
+  laureate_prizes <- flatten(nobelPrizes)
+  laureate_prizes$id = id
+
+  return(laureate_prizes)
+}
+```
+
+Let's test the new function with 1 row of data:
+
+```{r check_get_laureate_prizes_function}
+  get_laureate_prizes(combined_laureates$id[1], combined_laureates$nobelPrizes[[1]])
+```
+
+The function works with one row of data, but the real power comes when we use the r base `mapply` function. This allows us to pass in the function name, along with vectors containing all of the `id` and `nobelPrizes` data, and calls the function for each pair of values.
+
+```{r use_mapply_to_call_get_laureate_prizes_function}
+  all_prizes <- mapply('get_laureate_prizes', combined_laureates$id, combined_laureates$nobelPrizes)
+  all_prizes[1:2]
+```
+
+The `mapply` function returns a list containing the return value of our function for each call, so we'll use `bind_rows` again to combine the results together:
+
+```{r extract_prizes_from_combined_laureates_function}
+extract_prizes_from_combined_laureates <- function(ids, 
+                                                   nobel_laureates_prizes){
+  
+  all_prizes <- mapply('get_laureate_prizes', ids, nobel_laureates_prizes)
+  nobel_laureates_prizes <- bind_rows(all_prizes)
+  colnames(nobel_laureates_prizes) <- str_replace_all(colnames(nobel_laureates_prizes),
+                                                    '^links', 'prizes.links')
+  return(nobel_laureates_prizes)
+}
+```
+
+We should now be able to create a data frame containing all of the `nobelPrizes` data - let's see how that looks:
+
+```{r call_extract_prizes_from_combined_laureates_function}
+  nobel_laureate_prizes <- extract_prizes_from_combined_laureates(combined_laureates$id,
+                                                                  combined_laureates$nobelPrizes)
+  str(nobel_laureate_prizes, max.level=1, vec.len=1)
+```
+
+We still have two columns containing lists - these will also need to be extracted and removed before the prizes data can be saved in CSV format.
+
+### Extracting affiliations from nobel_laureate_prizes
+
+Affiliations represent the organisations (such as universities), that the laureate was affiliated with at the time of their prize. There can be 0, 1 or more affiliations per laureate prize.
+
+```{r show_number_of_affiliations}
+nrow(nobel_laureate_prizes$affiliations[[5]])
+nrow(nobel_laureate_prizes$affiliations[[6]])
+nrow(nobel_laureate_prizes$affiliations[[7]])
+```
+
+We'll create another function to extract the affiliations data. This time we'll need to pass in the `id`, `awardYear` and `category.en` in order to be able to uniquely link the affiliations data back to the laureate prize data. We also need to handle cases where `affiliations` is `NULL`.
+
+```{r get_laureate_prize_affiliations_function}
+get_laureate_prize_affiliations <- function(id, awardYear, category.en, affiliations){
+  if(is.data.frame(affiliations)){
+    affiliations <- flatten(affiliations)
+    colnames(affiliations) <- str_replace(colnames(affiliations), '^', 'affiliations.')
+    affiliations$id <- id
+    affiliations$awardYear <- awardYear
+    affiliations$category.en <- category.en
+    return(affiliations)    
+  }
+  else{
+    return(NULL)
+  }
+}
+```
+
+Let's test this new function using `mapply` and use `bind_rows to combine the results
+
+```{r use_mapply_to_call_get_laureate_prize_affiliations_function}
+  all_affiliations <- mapply('get_laureate_prize_affiliations', 
+                             nobel_laureate_prizes$id, 
+                             nobel_laureate_prizes$awardYear, 
+                             nobel_laureate_prizes$category.en,                           
+                             nobel_laureate_prizes$affiliations)
+  laureate_prize_affiliations <- bind_rows(all_affiliations)
+  laureate_prize_affiliations
+```
+
+```{r extract_affiliations_from_laureate_prizes_function}
+extract_affiliations_from_laureate_prizes <- function(nobel_laureate_prizes){
+  all_affiliations <- mapply('get_laureate_prize_affiliations', 
+                             nobel_laureate_prizes$id, 
+                             nobel_laureate_prizes$awardYear, 
+                             nobel_laureate_prizes$category.en,                           
+                             nobel_laureate_prizes$affiliations)
+  laureate_prize_affiliations <- bind_rows(all_affiliations)
+}
+```
+
+```{r call_extract_affiliations_from_laureate_prizes_function}
+laureate_prize_affiliations <- extract_affiliations_from_laureate_prizes(nobel_laureate_prizes)
+str(laureate_prize_affiliations, max.level = 1, vec.len = 1)
+```
+
+
+#### Extracting location wiki data from affiliations
+
+The affiliations dataframe includes two list columns:
+
+```{r}
+  laureate_prize_affiliations$affiliations.cityNow.sameas[1]
+  laureate_prize_affiliations$affiliations.countryNow.sameas[1]
+```
+
+- cityNow.sameas - typically contains a list with 2 items, but can also be NULL
+- countryNow.sameas - typically contains a list with 1 item, but can also be NULL
+
+We'll create 2 new functions to extract the wiki data from the laureate_prize_affiliations. In order to be able to join this data with the affiliations dataframe, we'll need to include id, awardYear, category.en and nameNow.en. 
+
+```{r get_laureate_prize_affiliation_cityNow_wikis_function}
+get_laureate_prize_affiliation_cityNow_wikis <- function(id, awardYear, category.en, 
+                                                         nameNow.en, cityNow.sameas){
+  if (is.null(cityNow.sameas)) {
+    return(NULL)
+  }
+  else
+  {
+    cityNow.sameas.wikidata <- unlist(cityNow.sameas)[1]
+    cityNow.sameas.wikipedia <- unlist(cityNow.sameas)[2]
+    return(data.frame('id' = id, 'awardYear' = awardYear, 
+                      'category.en' = category.en, 'affiliations.nameNow.en' = nameNow.en,
+                      'affiliations.cityNow.sameas.wikidata' = cityNow.sameas.wikidata,
+                      'affiliations.cityNow.sameas.wikipedia' = cityNow.sameas.wikipedia))
+  }
+}
+```
+
+```{r get_laureate_prize_affiliation_countryNow_wikis_function}
+get_laureate_prize_affiliation_countryNow_wikis <- function(id, awardYear, category.en, 
+                                                            nameNow.en, countryNow.sameas){
+  if (is.null(countryNow.sameas)) {
+    return(NULL)
+  }
+  else
+  {
+    return(data.frame('id' = id, 'awardYear' = awardYear, 
+                      'category.en' = category.en, 'affiliations.nameNow.en' = nameNow.en,
+                      'affiliations.countryNow.sameas.wikidata' = unlist(countryNow.sameas)[1]))
+  }  
+}
+```
+
+These new functions can also be called using mapply and the results can be bound using bind_rows:
+
+```{r mapply_get_laureate_prize_affiliation_cityNow_wikis_function}
+  affiliation_cityNow_wikis <- mapply('get_laureate_prize_affiliation_cityNow_wikis', 
+                                      laureate_prize_affiliations$id,
+                                      laureate_prize_affiliations$awardYear,
+                                      laureate_prize_affiliations$category.en,
+                                      laureate_prize_affiliations$affiliations.nameNow.en,
+                                      laureate_prize_affiliations$affiliations.cityNow.sameas)
+  bind_rows(affiliation_cityNow_wikis)
+```
+
+```{r mapply_get_laureate_affiliation_countryNow_wikis_function}
+  affiliation_countryNow_wikis <- mapply('get_laureate_prize_affiliation_countryNow_wikis',
+                                         laureate_prize_affiliations$id,
+                                         laureate_prize_affiliations$awardYear,
+                                         laureate_prize_affiliations$category.en,
+                                         laureate_prize_affiliations$affiliations.nameNow.en,
+                                         laureate_prize_affiliations$affiliations.countryNow.sameas)
+  bind_rows(affiliation_countryNow_wikis)
+```
+
+Once we extract the wiki data from both lists, we can join the data together. Either set of data could have missing rows, so we want to use a `full_join` to include all rows from either dataframe:
+
+```{r extract_location_wikis_from_affiliations_function}
+extract_location_wikis_from_affiliations <- function(laureate_prize_affiliations){
+
+  affiliation_cityNow_wikis <- mapply('get_laureate_prize_affiliation_cityNow_wikis', 
+                                      laureate_prize_affiliations$id,
+                                      laureate_prize_affiliations$awardYear,
+                                      laureate_prize_affiliations$category.en,
+                                      laureate_prize_affiliations$affiliations.nameNow.en,
+                                      laureate_prize_affiliations$affiliations.cityNow.sameas)
+  
+  affiliation_countryNow_wikis <- mapply('get_laureate_prize_affiliation_countryNow_wikis',
+                                         laureate_prize_affiliations$id,
+                                         laureate_prize_affiliations$awardYear,
+                                         laureate_prize_affiliations$category.en,
+                                         laureate_prize_affiliations$affiliations.nameNow.en,
+                                         laureate_prize_affiliations$affiliations.countryNow.sameas)
+
+  cityNow_wikis <- bind_rows(affiliation_cityNow_wikis)
+  countryNow_wikis <- bind_rows(affiliation_countryNow_wikis)
+  
+  affiliation_location_wikis <- full_join(cityNow_wikis, countryNow_wikis, 
+                                          by = c('id', 'awardYear', 'category.en',
+                                                 'affiliations.nameNow.en'))
+  
+  return(affiliation_location_wikis)
+}
+```
+
+```{r check_extract_location_wikis_from_affiliations_function}
+  affiliation_location_wikis <- 
+extract_location_wikis_from_affiliations(laureate_prize_affiliations)
+  affiliation_location_wikis
+```
+
+### Extracting residences from nobel_laureate_prizes
+
+The list of residences can either contain a data frame with details of the residence or it can be NULL:
+
+```{r}
+class(nobel_laureate_prizes$residences[[12]])
+class(nobel_laureate_prizes$residences[[13]])
+class(nobel_laureate_prizes$residences[[14]])
+```
+
+```{r}
+nobel_laureate_prizes$residences[[13]]
+```
+
+The function to extract the residences data is very similar to the earlier functions. We'll need `id`, `awardYear` and `category.en` to join the residences data to the laureate prizes data
+
+```{r get_laureate_prize_residences_function}
+get_laureate_prize_residences <- function(id, awardYear, category.en, residences){
+  if(is.data.frame(residences)){
+    residences <- flatten(residences)
+    colnames(residences) <- str_replace(colnames(residences), '^', 'residences.')
+    residences$id <- id
+    residences$awardYear <- awardYear
+    residences$category.en <- category.en
+    return(residences)    
+  }
+  else{
+    return(NULL)
+  }
+}
+```
+
+```{r}
+all_residences <- mapply('get_laureate_prize_residences',
+                         nobel_laureate_prizes$id,
+                         nobel_laureate_prizes$awardYear, 
+                         nobel_laureate_prizes$category.en,
+                         nobel_laureate_prizes$residences)
+laureate_prize_residences <- bind_rows(all_residences)
+laureate_prize_residences
+```
+
+```{r extract_laureate_prize_residences_function}
+extract_laureate_prize_residences <- function(nobel_laureate_prizes){
+  all_residences <- mapply('get_laureate_prize_residences',
+                           nobel_laureate_prizes$id,
+                           nobel_laureate_prizes$awardYear, 
+                           nobel_laureate_prizes$category.en,
+                           nobel_laureate_prizes$residences)
+  laureate_prize_residences <- bind_rows(all_residences)
+  return(laureate_prize_residences)
+}
+```
+
+```{r call_extract_laureate_prize_residences}
+  laureate_prize_residences <- extract_laureate_prize_residences(nobel_laureate_prizes)
+  laureate_prize_residences
+```
+
+## Flattening the nobel_laureates data
+
+Let's take a look at the structure of the laureates data:
+
+```{r combined_laureates_structure}
+  str(combined_laureates, max.level=1, vec.len = 1)
+```
+
+We'll need start by using the `flatten` function to expand the nested data frames.
+
+```{r flatten_combined_laureates}
+  nobel_laureates <- flatten(combined_laureates)
+  str(nobel_laureates, max.level = 1, vec.len = 1)
+```
+
+After flattening the laureates data, there are still a few lists within the data frame. We'll need to extract the data and remove all of these to save the data as a csv file. We've already extracted the nobelPrizes data, so now we need to handle the columns ending 'sameas'.
+
+### Handling the laureates sameas column
+
+```{r nobel_laureates_sameas_data}
+  nobel_laureates$sameas[1:3]
+```
+The sameas column contains a list with 2 values: 
+
+- a url for wikidata relating to the laureate
+- a url for wikipedia relating to the laureate
+
+The laureates dataframe already contains columns for these urls:
+
+```{r nobel_laureates_wiki_url_data}
+  nobel_laureates$wikidata.url[1:3]
+  nobel_laureates$wikipedia.english[1:3]
+```
+
+We don't need to duplicate this data, so the sameas column can be removed:
+
+```{r get_nobel_laureates_function}
+get_nobel_laureates <- function(combined_laureates){
+  nobel_laureates <- flatten(combined_laureates) %>% 
+    select(-c(sameas))   
+  
+  return(nobel_laureates)
+}
+```
+
+```{r call_get_nobel_laureates_function}
+nobel_laureates <- get_nobel_laureates(combined_laureates)
+```
+
+### Extracting wiki entries for city and country information
+
+There are a number of columns ending in .sameas which typically contain lists with links to wikidata / wikipedia, although they can also be NULL. 
+
+There are 2 types of data:
+
+- place.cityNow.sameas
+- place.countryNow.sameas
+
+Each of these exists for 3 possible events:
+
+- birth
+- death
+- founded
+
+Rather than have 6 different functions to handle the 6 different columns, we'll create one function for each type of data (city and country), then pass in an additional parameter for the event name:
+
+```{r get_laureates_event_cityNow_wiki_function}
+get_laureates_event_cityNow_wiki <- function(id, place.cityNow.sameas, eventName){
+  if(is.null(place.cityNow.sameas)){return(NULL)}
+  else{
+    place.cityNow.sameas.wikidata <- place.cityNow.sameas[1]
+    place.cityNow.sameas.wikipedia <- place.cityNow.sameas[2]
+    wiki_df <- data.frame(id, place.cityNow.sameas.wikidata, place.cityNow.sameas.wikipedia)
+    colnames(wiki_df) <- c('id', 
+                           paste0(eventName, '.place.cityNow.sameas.wikidata'), 
+                           paste0(eventName, '.place.cityNow.sameas.wikipedia'))
+    return(wiki_df)
+  }
+}
+```
+
+```{r check_get_laureates_event_cityNow_wiki_function}
+get_laureates_event_cityNow_wiki(10, c('entry1', 'enrty2'), 'eventname')
+```
+
+```{r get_laureates_event_countryNow_wiki_function}
+get_laureates_event_countryNow_wiki <- function(id, place.countryNow.sameas, eventName){
+  if(is.null(place.countryNow.sameas)){return(NULL)}
+  else{
+    place.countryNow.sameas.wikidata <- place.countryNow.sameas[1]
+    wiki_df <- data.frame(id, place.countryNow.sameas.wikidata)
+    colnames(wiki_df) <- c('id', paste0(eventName, '.place.countryNow.sameas.wikidata'))
+    return(wiki_df)
+  }
+}
+```
+
+```{r check_get_laureates_event_countryNow_wiki_function}
+get_laureates_event_countryNow_wiki(10, c('entry1'), 'eventname')
+```
+
+As previously, we'll use the `mapply` function to call the functions, with vectors containing the pairs of variables to be used each time. However, this time we'll also use the `MoreArgs` argument to pass in the `eventName`:
+
+```{r use_mapply_with_get_laureates_event_cityNow_wiki_function}
+birth_cityNow_wikis <- mapply('get_laureates_event_cityNow_wiki', nobel_laureates$id,
+                              nobel_laureates$birth.place.cityNow.sameas, 
+                              MoreArgs = list(eventName = 'birth'))
+head(bind_rows(birth_cityNow_wikis))
+```
+
+```{r use_mapply_with_get_laureates_event_countryNow_wiki_function}
+birth_countryNow_wikis <- mapply('get_laureates_event_countryNow_wiki', nobel_laureates$id,
+                              nobel_laureates$birth.place.countryNow.sameas, 
+                              MoreArgs = list(eventName = 'birth'))
+head(bind_rows(birth_countryNow_wikis))
+```
+
+Now we'll need to call each of the two functions three times - once for each event, then use bind_rows to convert the results in to data frames. Finally, we'll need to perform several full_joins to combine all or the data in to a single data frame:
+
+```{r get_laureate_event_location_wikis_function}
+get_laureate_event_location_wikis <- function(nobel_laureates){
+  birth_cityNow_wikis <- mapply('get_laureates_event_cityNow_wiki', 
+                                nobel_laureates$id,
+                                nobel_laureates$birth.place.cityNow.sameas, 
+                                MoreArgs = list(eventName = 'birth'))
+  birth_cityNow_wikis_df <- bind_rows(birth_cityNow_wikis)
+  
+  death_cityNow_wikis <- mapply('get_laureates_event_cityNow_wiki', 
+                                nobel_laureates$id,
+                                nobel_laureates$death.place.cityNow.sameas, 
+                                MoreArgs = list(eventName = 'death'))
+  death_cityNow_wikis_df <- bind_rows(death_cityNow_wikis)
+  
+  founded_cityNow_wikis <- mapply('get_laureates_event_cityNow_wiki', 
+                                  nobel_laureates$id,
+                                  nobel_laureates$founded.place.cityNow.sameas, 
+                                  MoreArgs = list(eventName = 'founded'))
+  founded_cityNow_wikis_df <- bind_rows(founded_cityNow_wikis)
+  
+  birth_countryNow_wikis <- mapply('get_laureates_event_countryNow_wiki', 
+                                   nobel_laureates$id,
+                                   nobel_laureates$birth.place.countryNow.sameas, 
+                                   MoreArgs = list(eventName = 'birth'))
+  birth_countryNow_wikis_df <- bind_rows(birth_countryNow_wikis)
+  
+  death_countryNow_wikis <- mapply('get_laureates_event_countryNow_wiki', 
+                                   nobel_laureates$id,
+                                   nobel_laureates$death.place.countryNow.sameas, 
+                                   MoreArgs = list(eventName = 'death'))
+  death_countryNow_wikis_df <- bind_rows(death_countryNow_wikis)
+  
+  founded_countryNow_wikis <- mapply('get_laureates_event_countryNow_wiki', 
+                                     nobel_laureates$id,
+                                     nobel_laureates$founded.place.countryNow.sameas, 
+                                     MoreArgs = list(eventName = 'founded'))
+  founded_countryNow_wikis_df <- bind_rows(founded_countryNow_wikis)
+  
+  birth_joined_df <- full_join(birth_cityNow_wikis_df, 
+                               birth_countryNow_wikis_df, by = 'id')
+  death_joined_df <- full_join(death_cityNow_wikis_df, 
+                               death_countryNow_wikis_df, by = 'id')
+  person_joined_df <- full_join(birth_joined_df, 
+                                death_joined_df, by = 'id')
+  founded_joined_df <- full_join(founded_cityNow_wikis_df, 
+                                 founded_countryNow_wikis_df, by = 'id')  
+  full_joined_df <- full_join(person_joined_df, founded_joined_df, by = 'id')
+  return(full_joined_df)
+}
+```
+
+```{r call_get_laureate_event_location_wikis_function}
+  laureate_event_location_wikis <- 
+  get_laureate_event_location_wikis(nobel_laureates)
+  head(laureate_event_location_wikis)
+```
+
+# Putting it all together
+
+Now that we've created functions to extract all of the required data, we'll put it all together and remove the lists (which would prevent the data from being saved) before saving the data as CSV files.
+
+```{r get_nobel_data_from_web_and_wrte_csv}
+  combined_laureates <- get_combined_json_laureate_data()
+
+  nobel_laureates <- get_nobel_laureates(combined_laureates)
+  nobel_laureate_prizes <- 
+    extract_prizes_from_combined_laureates(combined_laureates$id, 
+                                           combined_laureates$nobelPrizes)
+  nobel_laureates$nobelPrizes <- NULL
+  
+  laureate_prize_affiliations <- 
+    extract_affiliations_from_laureate_prizes(nobel_laureate_prizes)
+  nobel_laureate_prizes$affiliations <- NULL
+  
+  affiliation_location_wikis <-
+    extract_location_wikis_from_affiliations(laureate_prize_affiliations)
+  laureate_prize_affiliations$affiliations.cityNow.sameas <- NULL
+  laureate_prize_affiliations$affiliations.countryNow.sameas <- NULL  
+  
+  laureate_prize_residences <- 
+    extract_laureate_prize_residences(nobel_laureate_prizes)
+  nobel_laureate_prizes$residences <- NULL
+
+  laureate_event_location_wikis <- 
+    get_laureate_event_location_wikis(nobel_laureates)
+  nobel_laureates$birth.place.cityNow.sameas <- NULL
+  nobel_laureates$death.place.cityNow.sameas <- NULL
+  nobel_laureates$founded.place.cityNow.sameas <- NULL
+  nobel_laureates$birth.place.countryNow.sameas <- NULL
+  nobel_laureates$death.place.countryNow.sameas <- NULL
+  nobel_laureates$founded.place.countryNow.sameas <- NULL
+  nobel_laureates$death.place.country.sameas <- NULL
+  nobel_laureates$founded.place.country.sameas <- NULL
+  
+  write_csv(nobel_laureates, 'Data/nobel_laureates.csv')
+  write_csv(laureate_event_location_wikis, 'Data/laureate_event_location_wikis.csv')
+  write_csv(nobel_laureate_prizes, 'Data/nobel_laureates_prizes.csv')
+  write_csv(laureate_prize_residences, 'Data/laureate_prize_residences.csv')
+  write_csv(laureate_prize_affiliations, 'Data/laureate_prize_affiliations.csv')
+  write_csv(affiliation_location_wikis, 'Data/affiliation_location_wikis.csv')
+
+```
+
+# References
+
+Nobel Prize Developer Zone:
+https://www.nobelprize.org/about/developer-zone-2/
+
+Open API documentation for the laureates API:
+https://app.swaggerhub.com/apis/NobelMedia/NobelMasterData/2#/default/get_laureates
+
+Details about the data returned by the NobelPrizes API:
+https://app.swaggerhub.com/apis/NobelMedia/NobelMasterData/2#/laureatesResult
+
+

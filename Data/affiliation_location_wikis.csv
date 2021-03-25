@@ -1,0 +1,765 @@
+id,awardYear,category.en,affiliations.nameNow.en,affiliations.cityNow.sameas.wikidata,affiliations.cityNow.sameas.wikipedia,affiliations.countryNow.sameas.wikidata
+745,2001,Economic Sciences,Stanford University,https://www.wikidata.org/wiki/Q173813,"https://www.wikipedia.org/wiki/Stanford,_California",https://www.wikidata.org/wiki/Q30
+102,1975,Physics,Niels Bohr Institute,https://www.wikidata.org/wiki/Q1748,https://www.wikipedia.org/wiki/Copenhagen,https://www.wikidata.org/wiki/Q35
+779,2004,Chemistry,Technion - Israel Institute of Technology,https://www.wikidata.org/wiki/Q41621,https://www.wikipedia.org/wiki/Haifa,https://www.wikidata.org/wiki/Q801
+259,1982,Chemistry,MRC Laboratory of Molecular Biology,https://www.wikidata.org/wiki/Q350,https://www.wikipedia.org/wiki/Cambridge,https://www.wikidata.org/wiki/Q145
+114,1979,Physics,International Centre for Theoretical Physics,https://www.wikidata.org/wiki/Q546,https://www.wikipedia.org/wiki/Trieste,https://www.wikidata.org/wiki/Q38
+114,1979,Physics,Imperial College,https://www.wikidata.org/wiki/Q84,https://www.wikipedia.org/wiki/London,https://www.wikidata.org/wiki/Q145
+982,2019,Economic Sciences,Massachusetts Institute of Technology (MIT),https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+843,2009,Chemistry,Weizmann Institute of Science,https://www.wikidata.org/wiki/Q207350,https://www.wikipedia.org/wiki/Rehovot,https://www.wikidata.org/wiki/Q801
+866,2011,Physics,Johns Hopkins University,https://www.wikidata.org/wiki/Q5092,https://www.wikipedia.org/wiki/Baltimore,https://www.wikidata.org/wiki/Q30
+866,2011,Physics,Space Telescope Science Institute,https://www.wikidata.org/wiki/Q5092,https://www.wikipedia.org/wiki/Baltimore,https://www.wikidata.org/wiki/Q30
+199,1939,Chemistry,Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Biochemie,https://www.wikidata.org/wiki/Q700541,https://www.wikipedia.org/wiki/Dahlem_(Berlin),https://www.wikidata.org/wiki/Q183
+199,1939,Chemistry,Berlin University,https://www.wikidata.org/wiki/Q64,https://www.wikipedia.org/wiki/Berlin,https://www.wikidata.org/wiki/Q183
+164,1905,Chemistry,Munich University,https://www.wikidata.org/wiki/Q1726,https://www.wikipedia.org/wiki/Munich,https://www.wikidata.org/wiki/Q183
+185,1928,Chemistry,Goettingen University,https://www.wikidata.org/wiki/Q3033,https://www.wikipedia.org/wiki/G%C3%B6ttingen,https://www.wikidata.org/wiki/Q183
+292,1999,Chemistry,California Institute of Technology (Caltech),https://www.wikidata.org/wiki/Q485176,"https://www.wikipedia.org/wiki/Pasadena,_California",https://www.wikidata.org/wiki/Q30
+853,2010,Chemistry,Hokkaido University,https://www.wikidata.org/wiki/Q37951,https://www.wikipedia.org/wiki/Sapporo,https://www.wikidata.org/wiki/Q17
+978,2019,Chemistry,Asahi Kasei Corporation,https://www.wikidata.org/wiki/Q1490,https://www.wikipedia.org/wiki/Tokyo,https://www.wikidata.org/wiki/Q17
+978,2019,Chemistry,Meijo University,https://www.wikidata.org/wiki/Q11751,https://www.wikipedia.org/wiki/Nagoya,https://www.wikidata.org/wiki/Q17
+729,2000,Chemistry,University of California,https://www.wikidata.org/wiki/Q159288,"https://www.wikipedia.org/wiki/Santa_Barbara,_California",https://www.wikidata.org/wiki/Q30
+376,1963,Physiology or Medicine,University of Cambridge,https://www.wikidata.org/wiki/Q350,https://www.wikipedia.org/wiki/Cambridge,https://www.wikidata.org/wiki/Q145
+730,2000,Chemistry,University of Pennsylvania,https://www.wikidata.org/wiki/Q1345,https://www.wikipedia.org/wiki/Philadelphia,https://www.wikidata.org/wiki/Q30
+11,1907,Physics,University of Chicago,https://www.wikidata.org/wiki/Q1297,https://www.wikipedia.org/wiki/Chicago,https://www.wikidata.org/wiki/Q30
+403,1974,Physiology or Medicine,Université Catholique de Louvain,https://www.wikidata.org/wiki/Q118958,https://www.wikipedia.org/wiki/Leuven,https://www.wikidata.org/wiki/Q31
+26,1921,Physics,Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Physik,https://www.wikidata.org/wiki/Q64,https://www.wikipedia.org/wiki/Berlin,https://www.wikidata.org/wiki/Q183
+814,2007,Physics,Universit&eacute; Paris-Sud,https://www.wikidata.org/wiki/Q372281,https://www.wikipedia.org/wiki/Orsay,https://www.wikidata.org/wiki/Q142
+814,2007,Physics,Unit&eacute; Mixte de Physique CNRS/THALES,https://www.wikidata.org/wiki/Q372281,https://www.wikipedia.org/wiki/Orsay,https://www.wikidata.org/wiki/Q142
+332,1937,Physiology or Medicine,Szeged University,https://www.wikidata.org/wiki/Q81581,https://www.wikipedia.org/wiki/Szeged,https://www.wikidata.org/wiki/Q28
+304,1910,Physiology or Medicine,University of Heidelberg,https://www.wikidata.org/wiki/Q2966,https://www.wikipedia.org/wiki/Heidelberg,https://www.wikidata.org/wiki/Q183
+83,1964,Physics,P.N. Lebedev Physical Institute,https://www.wikidata.org/wiki/Q649,https://www.wikipedia.org/wiki/Moscow,https://www.wikidata.org/wiki/Q159
+306,1912,Physiology or Medicine,Rockefeller Institute for Medical Research,https://www.wikidata.org/wiki/Q60,https://www.wikipedia.org/wiki/New_York_City,https://www.wikidata.org/wiki/Q30
+392,1969,Physiology or Medicine,Carnegie Institution of Washington,https://www.wikidata.org/wiki/Q18438,https://www.wikipedia.org/wiki/Long_Island,https://www.wikidata.org/wiki/Q30
+450,1994,Physiology or Medicine,University of Texas Southwestern Medical Center at Dallas,https://www.wikidata.org/wiki/Q16557,https://www.wikipedia.org/wiki/Dallas,https://www.wikidata.org/wiki/Q30
+87,1966,Physics,École Normale Supérieure,https://www.wikidata.org/wiki/Q90,https://www.wikipedia.org/wiki/Paris,https://www.wikidata.org/wiki/Q142
+174,1913,Chemistry,University of Zurich,https://www.wikidata.org/wiki/Q72,https://www.wikipedia.org/wiki/Z%C3%BCrich,https://www.wikidata.org/wiki/Q39
+417,1979,Physiology or Medicine,Tufts University,https://www.wikidata.org/wiki/Q54145,"https://www.wikipedia.org/wiki/Medford,_Massachusetts",https://www.wikidata.org/wiki/Q30
+305,1911,Physiology or Medicine,Uppsala University,https://www.wikidata.org/wiki/Q25286,https://www.wikipedia.org/wiki/Uppsala,https://www.wikidata.org/wiki/Q34
+300,1907,Physiology or Medicine,Institut Pasteur,https://www.wikidata.org/wiki/Q90,https://www.wikipedia.org/wiki/Paris,https://www.wikidata.org/wiki/Q142
+882,2012,Economic Sciences,Harvard University,https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+882,2012,Economic Sciences,Harvard Business School,https://www.wikidata.org/wiki/Q100,https://www.wikipedia.org/wiki/Boston,https://www.wikidata.org/wiki/Q30
+719,1998,Economic Sciences,Trinity College,https://www.wikidata.org/wiki/Q350,https://www.wikipedia.org/wiki/Cambridge,https://www.wikidata.org/wiki/Q145
+360,1956,Physiology or Medicine,"Columbia University Division, Cardio-Pulmonary Laboratory, Bellevue Hospital",https://www.wikidata.org/wiki/Q60,https://www.wikipedia.org/wiki/New_York_City,https://www.wikidata.org/wiki/Q30
+849,2010,Physics,University of Manchester,https://www.wikidata.org/wiki/Q18125,https://www.wikipedia.org/wiki/Manchester,https://www.wikidata.org/wiki/Q145
+381,1965,Physiology or Medicine,Institut Pasteur,https://www.wikidata.org/wiki/Q90,https://www.wikipedia.org/wiki/Paris,https://www.wikidata.org/wiki/Q142
+990,2020,Physics,University of California,https://www.wikidata.org/wiki/Q65,https://www.wikipedia.org/wiki/Los_Angeles,https://www.wikidata.org/wiki/Q30
+377,1963,Physiology or Medicine,University College,https://www.wikidata.org/wiki/Q84,https://www.wikipedia.org/wiki/London,https://www.wikidata.org/wiki/Q145
+412,1977,Physiology or Medicine,Veterans Administration Hospital,https://www.wikidata.org/wiki/Q34404,https://www.wikipedia.org/wiki/New_Orleans,https://www.wikidata.org/wiki/Q30
+802,2006,Physiology or Medicine,Stanford University School of Medicine,https://www.wikidata.org/wiki/Q173813,"https://www.wikipedia.org/wiki/Stanford,_California",https://www.wikidata.org/wiki/Q30
+926,2015,Economic Sciences,Princeton University,https://www.wikidata.org/wiki/Q138518,"https://www.wikipedia.org/wiki/Princeton,_New_Jersey",https://www.wikidata.org/wiki/Q30
+768,2003,Physics,University of Illinois,https://www.wikidata.org/wiki/Q462184,"https://www.wikipedia.org/wiki/Urbana,_Illinois",https://www.wikidata.org/wiki/Q30
+101,1974,Physics,University of Cambridge,https://www.wikidata.org/wiki/Q350,https://www.wikipedia.org/wiki/Cambridge,https://www.wikidata.org/wiki/Q145
+214,1952,Chemistry,National Institute for Medical Research,https://www.wikidata.org/wiki/Q84,https://www.wikipedia.org/wiki/London,https://www.wikidata.org/wiki/Q145
+311,1922,Physiology or Medicine,London University,https://www.wikidata.org/wiki/Q84,https://www.wikipedia.org/wiki/London,https://www.wikidata.org/wiki/Q145
+891,2013,Chemistry,University of Southern California,https://www.wikidata.org/wiki/Q65,https://www.wikipedia.org/wiki/Los_Angeles,https://www.wikidata.org/wiki/Q30
+208,1948,Chemistry,Uppsala University,https://www.wikidata.org/wiki/Q25286,https://www.wikipedia.org/wiki/Uppsala,https://www.wikidata.org/wiki/Q34
+111,1978,Physics,Bell Laboratories,https://www.wikidata.org/wiki/Q1474335,"https://www.wikipedia.org/wiki/Holmdel_Township,_New_Jersey",https://www.wikidata.org/wiki/Q30
+960,2018,Physics,Bell Laboratories,https://www.wikidata.org/wiki/Q1474335,"https://www.wikipedia.org/wiki/Holmdel_Township,_New_Jersey",https://www.wikidata.org/wiki/Q30
+920,2015,Physics,Queen's University,https://www.wikidata.org/wiki/Q202973,"https://www.wikipedia.org/wiki/Kingston,_Ontario",https://www.wikidata.org/wiki/Q16
+33,1927,Physics,University of Chicago,https://www.wikidata.org/wiki/Q1297,https://www.wikipedia.org/wiki/Chicago,https://www.wikidata.org/wiki/Q30
+186,1929,Chemistry,London University,https://www.wikidata.org/wiki/Q84,https://www.wikipedia.org/wiki/London,https://www.wikidata.org/wiki/Q145
+368,1959,Physiology or Medicine,Stanford University,https://www.wikidata.org/wiki/Q173813,"https://www.wikipedia.org/wiki/Stanford,_California",https://www.wikidata.org/wiki/Q30
+119,1981,Physics,Stanford University,https://www.wikidata.org/wiki/Q173813,"https://www.wikipedia.org/wiki/Stanford,_California",https://www.wikidata.org/wiki/Q30
+203,1945,Chemistry,University of Helsinki,https://www.wikidata.org/wiki/Q1757,https://www.wikipedia.org/wiki/Helsinki,https://www.wikidata.org/wiki/Q33
+722,2000,Physiology or Medicine,Göteborg University,https://www.wikidata.org/wiki/Q25287,https://www.wikipedia.org/wiki/Gothenburg,https://www.wikidata.org/wiki/Q34
+310,1920,Physiology or Medicine,Copenhagen University,https://www.wikidata.org/wiki/Q1748,https://www.wikipedia.org/wiki/Copenhagen,https://www.wikidata.org/wiki/Q35
+780,2004,Chemistry,Technion - Israel Institute of Technology,https://www.wikidata.org/wiki/Q41621,https://www.wikipedia.org/wiki/Haifa,https://www.wikidata.org/wiki/Q801
+923,2015,Chemistry,University of North Carolina,https://www.wikidata.org/wiki/Q671812,"https://www.wikipedia.org/wiki/Chapel_Hill,_North_Carolina",https://www.wikidata.org/wiki/Q30
+428,1983,Physiology or Medicine,Cold Spring Harbor Laboratory,https://www.wikidata.org/wiki/Q953080,"https://www.wikipedia.org/wiki/Cold_Spring_Harbor,_New_York",https://www.wikidata.org/wiki/Q30
+942,2017,Physics,California Institute of Technology (Caltech),https://www.wikidata.org/wiki/Q485176,"https://www.wikipedia.org/wiki/Pasadena,_California",https://www.wikidata.org/wiki/Q30
+789,2005,Physiology or Medicine,"NHMRC Helicobacter pylori Research Laboratory, QEII Medical Centre",https://www.wikidata.org/wiki/Q3874193,"https://www.wikipedia.org/wiki/Nedlands,_Western_Australia",https://www.wikidata.org/wiki/Q408
+789,2005,Physiology or Medicine,University of Western Australia,https://www.wikidata.org/wiki/Q3183,https://www.wikipedia.org/wiki/Perth,https://www.wikidata.org/wiki/Q408
+743,2001,Chemistry,The Scripps Research Institute,https://www.wikidata.org/wiki/Q840668,https://www.wikipedia.org/wiki/La_Jolla,https://www.wikidata.org/wiki/Q30
+409,1976,Physiology or Medicine,The Institute for Cancer Research,https://www.wikidata.org/wiki/Q1345,https://www.wikipedia.org/wiki/Philadelphia,https://www.wikidata.org/wiki/Q30
+419,1980,Physiology or Medicine,Harvard Medical School,https://www.wikidata.org/wiki/Q100,https://www.wikipedia.org/wiki/Boston,https://www.wikidata.org/wiki/Q30
+103,1975,Physics,Nordita,https://www.wikidata.org/wiki/Q1748,https://www.wikipedia.org/wiki/Copenhagen,https://www.wikidata.org/wiki/Q35
+936,2016,Economic Sciences,Massachusetts Institute of Technology (MIT),https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+426,1982,Physiology or Medicine,Karolinska Institutet,https://www.wikidata.org/wiki/Q1754,https://www.wikipedia.org/wiki/Stockholm,https://www.wikidata.org/wiki/Q34
+933,2016,Chemistry,University of Groningen,https://www.wikidata.org/wiki/Q749,https://www.wikipedia.org/wiki/Groningen,https://www.wikidata.org/wiki/Q55
+345,1947,Physiology or Medicine,Instituto de Biologia y Medicina Experimental (Institute for Biology and Experimental Medicine),https://www.wikidata.org/wiki/Q1486,https://www.wikipedia.org/wiki/Buenos_Aires,https://www.wikidata.org/wiki/Q414
+445,1991,Physiology or Medicine,Max-Planck-Institut für medizinische Forschung,https://www.wikidata.org/wiki/Q2966,https://www.wikipedia.org/wiki/Heidelberg,https://www.wikidata.org/wiki/Q183
+689,1977,Economic Sciences,Stockholm School of Economics,https://www.wikidata.org/wiki/Q1754,https://www.wikipedia.org/wiki/Stockholm,https://www.wikidata.org/wiki/Q34
+145,1994,Physics,McMaster University,https://www.wikidata.org/wiki/Q133116,"https://www.wikipedia.org/wiki/Hamilton,_Ontario",https://www.wikidata.org/wiki/Q16
+99,1973,Physics,University of Cambridge,https://www.wikidata.org/wiki/Q350,https://www.wikipedia.org/wiki/Cambridge,https://www.wikidata.org/wiki/Q145
+879,2012,Chemistry,Stanford University School of Medicine,https://www.wikidata.org/wiki/Q173813,"https://www.wikipedia.org/wiki/Stanford,_California",https://www.wikidata.org/wiki/Q30
+865,2011,Physics,Australian National University,https://www.wikidata.org/wiki/Q260941,https://www.wikipedia.org/wiki/Weston_Creek,https://www.wikidata.org/wiki/Q408
+861,2011,Physiology or Medicine,University of Texas Southwestern Medical Center at Dallas,https://www.wikidata.org/wiki/Q16557,https://www.wikipedia.org/wiki/Dallas,https://www.wikidata.org/wiki/Q30
+861,2011,Physiology or Medicine,The Scripps Research Institute,https://www.wikidata.org/wiki/Q840668,https://www.wikipedia.org/wiki/La_Jolla,https://www.wikidata.org/wiki/Q30
+261,1984,Chemistry,Rockefeller University,https://www.wikidata.org/wiki/Q60,https://www.wikipedia.org/wiki/New_York_City,https://www.wikidata.org/wiki/Q30
+105,1976,Physics,Stanford Linear Accelerator Center,https://www.wikidata.org/wiki/Q173813,"https://www.wikipedia.org/wiki/Stanford,_California",https://www.wikidata.org/wiki/Q30
+34,1927,Physics,University of Cambridge,https://www.wikidata.org/wiki/Q350,https://www.wikipedia.org/wiki/Cambridge,https://www.wikidata.org/wiki/Q145
+298,1906,Physiology or Medicine,Pavia University,https://www.wikidata.org/wiki/Q6259,https://www.wikipedia.org/wiki/Pavia,https://www.wikidata.org/wiki/Q38
+189,1931,Chemistry,University of Heidelberg,https://www.wikidata.org/wiki/Q2966,https://www.wikipedia.org/wiki/Heidelberg,https://www.wikidata.org/wiki/Q183
+189,1931,Chemistry,I.G. Farbenindustrie A.G.,https://www.wikidata.org/wiki/Q2966,https://www.wikipedia.org/wiki/Heidelberg,https://www.wikidata.org/wiki/Q183
+343,1947,Physiology or Medicine,Washington University,https://www.wikidata.org/wiki/Q38022,https://www.wikipedia.org/wiki/St._Louis,https://www.wikidata.org/wiki/Q30
+43,1936,Physics,California Institute of Technology (Caltech),https://www.wikidata.org/wiki/Q485176,"https://www.wikipedia.org/wiki/Pasadena,_California",https://www.wikidata.org/wiki/Q30
+740,2001,Physics,"University of Colorado, JILA",https://www.wikidata.org/wiki/Q192517,"https://www.wikipedia.org/wiki/Boulder,_Colorado",https://www.wikidata.org/wiki/Q30
+124,1984,Physics,CERN,https://www.wikidata.org/wiki/Q71,https://www.wikipedia.org/wiki/Geneva,https://www.wikidata.org/wiki/Q39
+836,2009,Physiology or Medicine,Johns Hopkins University School of Medicine,https://www.wikidata.org/wiki/Q5092,https://www.wikipedia.org/wiki/Baltimore,https://www.wikidata.org/wiki/Q30
+55,1950,Physics,Bristol University,https://www.wikidata.org/wiki/Q23154,https://www.wikipedia.org/wiki/Bristol,https://www.wikidata.org/wiki/Q145
+431,1984,Physiology or Medicine,MRC Laboratory of Molecular Biology,https://www.wikidata.org/wiki/Q350,https://www.wikipedia.org/wiki/Cambridge,https://www.wikidata.org/wiki/Q145
+384,1966,Physiology or Medicine,"University of Chicago, Ben May Laboratory for Cancer Research",https://www.wikidata.org/wiki/Q1297,https://www.wikipedia.org/wiki/Chicago,https://www.wikidata.org/wiki/Q30
+25,1920,Physics,Bureau International des Poids et Mesures (International Bureau of Weights and Measures),https://www.wikidata.org/wiki/Q206493,https://www.wikipedia.org/wiki/S%C3%A8vres,https://www.wikidata.org/wiki/Q142
+22,1917,Physics,Edinburgh University,https://www.wikidata.org/wiki/Q23436,https://www.wikipedia.org/wiki/Edinburgh,https://www.wikidata.org/wiki/Q145
+81,1964,Physics,Massachusetts Institute of Technology (MIT),https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+269,1987,Chemistry,Du Pont,https://www.wikidata.org/wiki/Q174224,"https://www.wikipedia.org/wiki/Wilmington,_Delaware",https://www.wikidata.org/wiki/Q30
+838,2009,Physics,Standard Telecommunication Laboratories,https://www.wikidata.org/wiki/Q852729,https://www.wikipedia.org/wiki/Harlow,https://www.wikidata.org/wiki/Q145
+838,2009,Physics,Chinese University of Hong Kong,https://www.wikidata.org/wiki/Q8646,https://www.wikipedia.org/wiki/Hong_Kong,https://www.wikidata.org/wiki/Q148
+987,2020,Physiology or Medicine,Rockefeller University,https://www.wikidata.org/wiki/Q60,https://www.wikipedia.org/wiki/New_York_City,https://www.wikidata.org/wiki/Q30
+318,1928,Physiology or Medicine,Institut Pasteur,https://www.wikidata.org/wiki/Q3572,https://www.wikipedia.org/wiki/Tunis,https://www.wikidata.org/wiki/Q948
+307,1913,Physiology or Medicine,Sorbonne University,https://www.wikidata.org/wiki/Q90,https://www.wikipedia.org/wiki/Paris,https://www.wikidata.org/wiki/Q142
+68,1957,Physics,Institute for Advanced Study,https://www.wikidata.org/wiki/Q138518,"https://www.wikipedia.org/wiki/Princeton,_New_Jersey",https://www.wikidata.org/wiki/Q30
+319,1929,Physiology or Medicine,Utrecht University,https://www.wikidata.org/wiki/Q803,https://www.wikipedia.org/wiki/Utrecht,https://www.wikidata.org/wiki/Q55
+241,1972,Chemistry,National Institutes of Health,https://www.wikidata.org/wiki/Q584451,"https://www.wikipedia.org/wiki/Bethesda,_Maryland",https://www.wikidata.org/wiki/Q30
+404,1974,Physiology or Medicine,Rockefeller University,https://www.wikidata.org/wiki/Q60,https://www.wikipedia.org/wiki/New_York_City,https://www.wikidata.org/wiki/Q30
+404,1974,Physiology or Medicine,Université Catholique de Louvain,https://www.wikidata.org/wiki/Q118958,https://www.wikipedia.org/wiki/Leuven,https://www.wikidata.org/wiki/Q31
+453,1995,Physiology or Medicine,Max-Planck-Institut für Entwicklungsbiologie,https://www.wikidata.org/wiki/Q3806,https://www.wikipedia.org/wiki/T%C3%BCbingen,https://www.wikidata.org/wiki/Q183
+858,2010,Economic Sciences,London School of Economics and Political Science,https://www.wikidata.org/wiki/Q84,https://www.wikipedia.org/wiki/London,https://www.wikidata.org/wiki/Q145
+873,2011,Economic Sciences,Princeton University,https://www.wikidata.org/wiki/Q138518,"https://www.wikipedia.org/wiki/Princeton,_New_Jersey",https://www.wikidata.org/wiki/Q30
+153,1997,Physics,Collège de France,https://www.wikidata.org/wiki/Q90,https://www.wikipedia.org/wiki/Paris,https://www.wikidata.org/wiki/Q142
+153,1997,Physics,École Normale Supérieure,https://www.wikidata.org/wiki/Q90,https://www.wikipedia.org/wiki/Paris,https://www.wikidata.org/wiki/Q142
+146,1994,Physics,Massachusetts Institute of Technology (MIT),https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+44,1937,Physics,Bell Telephone Laboratories,https://www.wikidata.org/wiki/Q60,https://www.wikipedia.org/wiki/New_York_City,https://www.wikidata.org/wiki/Q30
+772,2003,Economic Sciences,University of California,https://www.wikidata.org/wiki/Q16552,https://www.wikipedia.org/wiki/San_Diego,https://www.wikidata.org/wiki/Q30
+333,1938,Physiology or Medicine,Ghent University,https://www.wikidata.org/wiki/Q1296,https://www.wikipedia.org/wiki/Ghent,https://www.wikidata.org/wiki/Q31
+803,2006,Physiology or Medicine,University of Massachusetts Medical School,https://www.wikidata.org/wiki/Q49179,"https://www.wikipedia.org/wiki/Worcester,_Massachusetts",https://www.wikidata.org/wiki/Q30
+410,1976,Physiology or Medicine,National Institutes of Health,https://www.wikidata.org/wiki/Q584451,"https://www.wikipedia.org/wiki/Bethesda,_Maryland",https://www.wikidata.org/wiki/Q30
+857,2010,Economic Sciences,Northwestern University,https://www.wikidata.org/wiki/Q462799,"https://www.wikipedia.org/wiki/Evanston,_Illinois",https://www.wikidata.org/wiki/Q30
+857,2010,Economic Sciences,Aarhus University,https://www.wikidata.org/wiki/Q25319,https://www.wikipedia.org/wiki/Aarhus,https://www.wikidata.org/wiki/Q35
+867,2011,Chemistry,Technion - Israel Institute of Technology,https://www.wikidata.org/wiki/Q41621,https://www.wikipedia.org/wiki/Haifa,https://www.wikidata.org/wiki/Q801
+363,1957,Physiology or Medicine,Istituto Superiore di Sanità (Chief Institute of Public Health),https://www.wikidata.org/wiki/Q220,https://www.wikipedia.org/wiki/Rome,https://www.wikidata.org/wiki/Q38
+157,1998,Physics,Princeton University,https://www.wikidata.org/wiki/Q138518,"https://www.wikipedia.org/wiki/Princeton,_New_Jersey",https://www.wikidata.org/wiki/Q30
+759,2002,Economic Sciences,Princeton University,https://www.wikidata.org/wiki/Q138518,"https://www.wikipedia.org/wiki/Princeton,_New_Jersey",https://www.wikidata.org/wiki/Q30
+733,2000,Economic Sciences,University of California,https://www.wikidata.org/wiki/Q484678,"https://www.wikipedia.org/wiki/Berkeley,_California",https://www.wikidata.org/wiki/Q30
+415,1978,Physiology or Medicine,Johns Hopkins University School of Medicine,https://www.wikidata.org/wiki/Q5092,https://www.wikipedia.org/wiki/Baltimore,https://www.wikidata.org/wiki/Q30
+406,1975,Physiology or Medicine,Massachusetts Institute of Technology (MIT),https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+423,1981,Physiology or Medicine,Harvard Medical School,https://www.wikidata.org/wiki/Q100,https://www.wikipedia.org/wiki/Boston,https://www.wikidata.org/wiki/Q30
+776,2004,Physics,"University of California, Kavli Institute for Theoretical Physics",https://www.wikidata.org/wiki/Q159288,"https://www.wikipedia.org/wiki/Santa_Barbara,_California",https://www.wikidata.org/wiki/Q30
+928,2016,Physics,University of Washington,https://www.wikidata.org/wiki/Q5083,https://www.wikipedia.org/wiki/Seattle,https://www.wikidata.org/wiki/Q30
+877,2012,Physics,National Institute of Standards and Technology,https://www.wikidata.org/wiki/Q192517,"https://www.wikipedia.org/wiki/Boulder,_Colorado",https://www.wikidata.org/wiki/Q30
+877,2012,Physics,University of Colorado,https://www.wikidata.org/wiki/Q192517,"https://www.wikipedia.org/wiki/Boulder,_Colorado",https://www.wikidata.org/wiki/Q30
+149,1996,Physics,Cornell University,https://www.wikidata.org/wiki/Q217346,"https://www.wikipedia.org/wiki/Ithaca,_New_York",https://www.wikidata.org/wiki/Q30
+93,1971,Physics,Imperial College,https://www.wikidata.org/wiki/Q84,https://www.wikipedia.org/wiki/London,https://www.wikidata.org/wiki/Q145
+237,1969,Chemistry,Imperial College,https://www.wikidata.org/wiki/Q84,https://www.wikipedia.org/wiki/London,https://www.wikidata.org/wiki/Q145
+362,1956,Physiology or Medicine,Columbia University,https://www.wikidata.org/wiki/Q60,https://www.wikipedia.org/wiki/New_York_City,https://www.wikidata.org/wiki/Q30
+975,2019,Physics,University of Geneva,https://www.wikidata.org/wiki/Q71,https://www.wikipedia.org/wiki/Geneva,https://www.wikidata.org/wiki/Q39
+975,2019,Physics,University of Cambridge,https://www.wikidata.org/wiki/Q350,https://www.wikipedia.org/wiki/Cambridge,https://www.wikidata.org/wiki/Q145
+74,1960,Physics,University of California,https://www.wikidata.org/wiki/Q484678,"https://www.wikipedia.org/wiki/Berkeley,_California",https://www.wikidata.org/wiki/Q30
+267,1987,Chemistry,University of California,https://www.wikidata.org/wiki/Q65,https://www.wikipedia.org/wiki/Los_Angeles,https://www.wikidata.org/wiki/Q30
+962,2018,Physics,University of Waterloo,https://www.wikidata.org/wiki/Q639408,"https://www.wikipedia.org/wiki/Waterloo,_Ontario",https://www.wikidata.org/wiki/Q16
+230,1964,Chemistry,"University of Oxford, Royal Society",https://www.wikidata.org/wiki/Q34217,https://www.wikipedia.org/wiki/Oxford,https://www.wikidata.org/wiki/Q145
+150,1996,Physics,Stanford University,https://www.wikidata.org/wiki/Q173813,"https://www.wikipedia.org/wiki/Stanford,_California",https://www.wikidata.org/wiki/Q30
+710,1993,Economic Sciences,Washington University,https://www.wikidata.org/wiki/Q38022,https://www.wikipedia.org/wiki/St._Louis,https://www.wikidata.org/wiki/Q30
+264,1986,Chemistry,Harvard University,https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+443,1990,Physiology or Medicine,Fred Hutchinson Cancer Research Center,https://www.wikidata.org/wiki/Q5083,https://www.wikipedia.org/wiki/Seattle,https://www.wikidata.org/wiki/Q30
+59,1952,Physics,Harvard University,https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+397,1971,Physiology or Medicine,Vanderbilt University,https://www.wikidata.org/wiki/Q23197,"https://www.wikipedia.org/wiki/Nashville,_Tennessee",https://www.wikidata.org/wiki/Q30
+324,1932,Physiology or Medicine,University of Cambridge,https://www.wikidata.org/wiki/Q350,https://www.wikipedia.org/wiki/Cambridge,https://www.wikidata.org/wiki/Q145
+446,1992,Physiology or Medicine,University of Washington,https://www.wikidata.org/wiki/Q5083,https://www.wikipedia.org/wiki/Seattle,https://www.wikidata.org/wiki/Q30
+807,2006,Economic Sciences,Columbia University,https://www.wikidata.org/wiki/Q60,https://www.wikipedia.org/wiki/New_York_City,https://www.wikidata.org/wiki/Q30
+166,1907,Chemistry,Landwirtschaftliche Hochschule (Agricultural College),https://www.wikidata.org/wiki/Q64,https://www.wikipedia.org/wiki/Berlin,https://www.wikidata.org/wiki/Q183
+905,2014,Physiology or Medicine,Norwegian University of Science and Technology (NTNU),https://www.wikidata.org/wiki/Q25804,https://www.wikipedia.org/wiki/Trondheim,https://www.wikidata.org/wiki/Q20
+336,1943,Physiology or Medicine,Saint Louis University,https://www.wikidata.org/wiki/Q38022,https://www.wikipedia.org/wiki/St._Louis,https://www.wikidata.org/wiki/Q30
+452,1995,Physiology or Medicine,California Institute of Technology (Caltech),https://www.wikidata.org/wiki/Q485176,"https://www.wikipedia.org/wiki/Pasadena,_California",https://www.wikidata.org/wiki/Q30
+349,1950,Physiology or Medicine,Mayo Clinic,https://www.wikidata.org/wiki/Q486479,"https://www.wikipedia.org/wiki/Rochester,_Minnesota",https://www.wikidata.org/wiki/Q30
+787,2004,Economic Sciences,Arizona State University,https://www.wikidata.org/wiki/Q51685,"https://www.wikipedia.org/wiki/Tempe,_Arizona",https://www.wikidata.org/wiki/Q30
+787,2004,Economic Sciences,Federal Reserve Bank of Minneapolis,https://www.wikidata.org/wiki/Q36091,https://www.wikipedia.org/wiki/Minneapolis,https://www.wikidata.org/wiki/Q30
+365,1958,Physiology or Medicine,Rockefeller Institute for Medical Research,https://www.wikidata.org/wiki/Q60,https://www.wikipedia.org/wiki/New_York_City,https://www.wikidata.org/wiki/Q30
+52,1947,Physics,Department of Scientific and Industrial Research,https://www.wikidata.org/wiki/Q84,https://www.wikipedia.org/wiki/London,https://www.wikidata.org/wiki/Q145
+447,1992,Physiology or Medicine,University of Washington,https://www.wikidata.org/wiki/Q5083,https://www.wikipedia.org/wiki/Seattle,https://www.wikidata.org/wiki/Q30
+212,1951,Chemistry,University of California,https://www.wikidata.org/wiki/Q484678,"https://www.wikipedia.org/wiki/Berkeley,_California",https://www.wikidata.org/wiki/Q30
+348,1949,Physiology or Medicine,University of Lisbon,https://www.wikidata.org/wiki/Q597,https://www.wikipedia.org/wiki/Lisbon,https://www.wikidata.org/wiki/Q45
+348,1949,Physiology or Medicine,Neurological Institute,https://www.wikidata.org/wiki/Q597,https://www.wikipedia.org/wiki/Lisbon,https://www.wikidata.org/wiki/Q45
+852,2010,Chemistry,Purdue University,https://www.wikidata.org/wiki/Q166481,"https://www.wikipedia.org/wiki/West_Lafayette,_Indiana",https://www.wikidata.org/wiki/Q30
+275,1990,Chemistry,Harvard University,https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+846,2009,Economic Sciences,Indiana University,https://www.wikidata.org/wiki/Q490385,"https://www.wikipedia.org/wiki/Bloomington,_Indiana",https://www.wikidata.org/wiki/Q30
+846,2009,Economic Sciences,Arizona State University,https://www.wikidata.org/wiki/Q51685,"https://www.wikipedia.org/wiki/Tempe,_Arizona",https://www.wikidata.org/wiki/Q30
+835,2009,Physiology or Medicine,University of California,https://www.wikidata.org/wiki/Q62,https://www.wikipedia.org/wiki/San_Francisco,https://www.wikidata.org/wiki/Q30
+161,1902,Chemistry,Berlin University,https://www.wikidata.org/wiki/Q64,https://www.wikipedia.org/wiki/Berlin,https://www.wikidata.org/wiki/Q183
+293,1901,Physiology or Medicine,Marburg University,https://www.wikidata.org/wiki/Q3869,https://www.wikipedia.org/wiki/Marburg,https://www.wikidata.org/wiki/Q183
+72,1959,Physics,University of California,https://www.wikidata.org/wiki/Q484678,"https://www.wikipedia.org/wiki/Berkeley,_California",https://www.wikidata.org/wiki/Q30
+991,2020,Chemistry,Max Planck Unit for the Science of Pathogens,https://www.wikidata.org/wiki/Q64,https://www.wikipedia.org/wiki/Berlin,https://www.wikidata.org/wiki/Q183
+46,1938,Physics,Rome University,https://www.wikidata.org/wiki/Q220,https://www.wikipedia.org/wiki/Rome,https://www.wikidata.org/wiki/Q38
+909,2014,Chemistry,"Janelia Research Campus, Howard Hughes Medical Institute",https://www.wikidata.org/wiki/Q724884,"https://www.wikipedia.org/wiki/Ashburn,_Virginia",https://www.wikidata.org/wiki/Q30
+738,2001,Physics,"University of Colorado, JILA",https://www.wikidata.org/wiki/Q192517,"https://www.wikipedia.org/wiki/Boulder,_Colorado",https://www.wikidata.org/wiki/Q30
+454,1995,Physiology or Medicine,Princeton University,https://www.wikidata.org/wiki/Q138518,"https://www.wikipedia.org/wiki/Princeton,_New_Jersey",https://www.wikidata.org/wiki/Q30
+724,2000,Physiology or Medicine,Columbia University,https://www.wikidata.org/wiki/Q60,https://www.wikipedia.org/wiki/New_York_City,https://www.wikidata.org/wiki/Q30
+821,2007,Economic Sciences,Institute for Advanced Study,https://www.wikidata.org/wiki/Q138518,"https://www.wikipedia.org/wiki/Princeton,_New_Jersey",https://www.wikidata.org/wiki/Q30
+47,1939,Physics,University of California,https://www.wikidata.org/wiki/Q484678,"https://www.wikipedia.org/wiki/Berkeley,_California",https://www.wikidata.org/wiki/Q30
+167,1908,Chemistry,Victoria University,https://www.wikidata.org/wiki/Q18125,https://www.wikipedia.org/wiki/Manchester,https://www.wikidata.org/wiki/Q145
+57,1951,Physics,Trinity College,https://www.wikidata.org/wiki/Q1761,https://www.wikipedia.org/wiki/Dublin,https://www.wikidata.org/wiki/Q27
+340,1945,Physiology or Medicine,University of Oxford,https://www.wikidata.org/wiki/Q34217,https://www.wikipedia.org/wiki/Oxford,https://www.wikidata.org/wiki/Q145
+244,1973,Chemistry,Technical University,https://www.wikidata.org/wiki/Q1726,https://www.wikipedia.org/wiki/Munich,https://www.wikidata.org/wiki/Q183
+127,1986,Physics,Fritz-Haber-Institut der Max-Planck-Gesellschaft,https://www.wikidata.org/wiki/Q64,https://www.wikipedia.org/wiki/Berlin,https://www.wikidata.org/wiki/Q183
+444,1991,Physiology or Medicine,Max-Planck-Institut für Biophysikalische Chemie,https://www.wikidata.org/wiki/Q3033,https://www.wikipedia.org/wiki/G%C3%B6ttingen,https://www.wikidata.org/wiki/Q183
+39,1933,Physics,Berlin University,https://www.wikidata.org/wiki/Q64,https://www.wikipedia.org/wiki/Berlin,https://www.wikidata.org/wiki/Q183
+983,2019,Economic Sciences,Massachusetts Institute of Technology (MIT),https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+894,2013,Economic Sciences,University of Chicago,https://www.wikidata.org/wiki/Q1297,https://www.wikipedia.org/wiki/Chicago,https://www.wikidata.org/wiki/Q30
+78,1963,Physics,Princeton University,https://www.wikidata.org/wiki/Q138518,"https://www.wikipedia.org/wiki/Princeton,_New_Jersey",https://www.wikidata.org/wiki/Q30
+929,2016,Physics,Princeton University,https://www.wikidata.org/wiki/Q138518,"https://www.wikipedia.org/wiki/Princeton,_New_Jersey",https://www.wikidata.org/wiki/Q30
+283,1995,Chemistry,University of California,https://www.wikidata.org/wiki/Q49219,"https://www.wikipedia.org/wiki/Irvine,_California",https://www.wikidata.org/wiki/Q30
+58,1952,Physics,Stanford University,https://www.wikidata.org/wiki/Q173813,"https://www.wikipedia.org/wiki/Stanford,_California",https://www.wikidata.org/wiki/Q30
+379,1964,Physiology or Medicine,Max-Planck-Institut für Zellchemie,https://www.wikidata.org/wiki/Q1726,https://www.wikipedia.org/wiki/Munich,https://www.wikidata.org/wiki/Q183
+14,1909,Physics,Strasbourg University,https://www.wikidata.org/wiki/Q6602,https://www.wikipedia.org/wiki/Strasbourg,https://www.wikidata.org/wiki/Q142
+460,1998,Physiology or Medicine,University of Texas Medical School at Houston,https://www.wikidata.org/wiki/Q16555,https://www.wikipedia.org/wiki/Houston,https://www.wikidata.org/wiki/Q30
+786,2004,Economic Sciences,Carnegie Mellon University,https://www.wikidata.org/wiki/Q1342,https://www.wikipedia.org/wiki/Pittsburgh,https://www.wikidata.org/wiki/Q30
+786,2004,Economic Sciences,University of California,https://www.wikidata.org/wiki/Q159288,"https://www.wikipedia.org/wiki/Santa_Barbara,_California",https://www.wikidata.org/wiki/Q30
+963,2018,Chemistry,California Institute of Technology (Caltech),https://www.wikidata.org/wiki/Q485176,"https://www.wikipedia.org/wiki/Pasadena,_California",https://www.wikidata.org/wiki/Q30
+372,1962,Physiology or Medicine,MRC Laboratory of Molecular Biology,https://www.wikidata.org/wiki/Q350,https://www.wikipedia.org/wiki/Cambridge,https://www.wikidata.org/wiki/Q145
+180,1922,Chemistry,University of Cambridge,https://www.wikidata.org/wiki/Q350,https://www.wikipedia.org/wiki/Cambridge,https://www.wikidata.org/wiki/Q145
+699,1985,Economic Sciences,Massachusetts Institute of Technology (MIT),https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+887,2013,Physics,Université Libre de Bruxelles,https://www.wikidata.org/wiki/Q239,https://www.wikipedia.org/wiki/City_of_Brussels,https://www.wikidata.org/wiki/Q31
+380,1965,Physiology or Medicine,Institut Pasteur,https://www.wikidata.org/wiki/Q90,https://www.wikipedia.org/wiki/Paris,https://www.wikidata.org/wiki/Q142
+824,2008,Physiology or Medicine,"Regulation of Retroviral Infections Unit, Virology Department, Institut Pasteur",https://www.wikidata.org/wiki/Q90,https://www.wikipedia.org/wiki/Paris,https://www.wikidata.org/wiki/Q142
+778,2004,Physics,Massachusetts Institute of Technology (MIT),https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+193,1935,Chemistry,Institut du Radium,https://www.wikidata.org/wiki/Q90,https://www.wikipedia.org/wiki/Paris,https://www.wikidata.org/wiki/Q142
+358,1954,Physiology or Medicine,Western Reserve University,https://www.wikidata.org/wiki/Q37320,https://www.wikipedia.org/wiki/Cleveland,https://www.wikidata.org/wiki/Q30
+313,1923,Physiology or Medicine,University of Toronto,https://www.wikidata.org/wiki/Q172,https://www.wikipedia.org/wiki/Toronto,https://www.wikidata.org/wiki/Q16
+148,1995,Physics,University of California,https://www.wikidata.org/wiki/Q49219,"https://www.wikipedia.org/wiki/Irvine,_California",https://www.wikidata.org/wiki/Q30
+222,1958,Chemistry,University of Cambridge,https://www.wikidata.org/wiki/Q350,https://www.wikipedia.org/wiki/Cambridge,https://www.wikidata.org/wiki/Q145
+222,1980,Chemistry,MRC Laboratory of Molecular Biology,https://www.wikidata.org/wiki/Q350,https://www.wikipedia.org/wiki/Cambridge,https://www.wikidata.org/wiki/Q145
+179,1921,Chemistry,University of Oxford,https://www.wikidata.org/wiki/Q34217,https://www.wikipedia.org/wiki/Oxford,https://www.wikidata.org/wiki/Q145
+190,1931,Chemistry,University of Heidelberg,https://www.wikidata.org/wiki/Q2966,https://www.wikipedia.org/wiki/Heidelberg,https://www.wikidata.org/wiki/Q183
+190,1931,Chemistry,I.G. Farbenindustrie A.G.,https://www.wikidata.org/wiki/Q2119,https://www.wikipedia.org/wiki/Mannheim,https://www.wikidata.org/wiki/Q183
+60,1953,Physics,Groningen University,https://www.wikidata.org/wiki/Q749,https://www.wikipedia.org/wiki/Groningen,https://www.wikidata.org/wiki/Q55
+177,1918,Chemistry,Kaiser-Wilhelm-Institut (now Fritz-Haber-Institut) für physikalische Chemie und Electrochemie,https://www.wikidata.org/wiki/Q700541,https://www.wikipedia.org/wiki/Dahlem_(Berlin),https://www.wikidata.org/wiki/Q183
+355,1953,Physiology or Medicine,Harvard Medical School,https://www.wikidata.org/wiki/Q100,https://www.wikipedia.org/wiki/Boston,https://www.wikidata.org/wiki/Q30
+355,1953,Physiology or Medicine,Massachusetts General Hospital,https://www.wikidata.org/wiki/Q100,https://www.wikipedia.org/wiki/Boston,https://www.wikidata.org/wiki/Q30
+181,1923,Chemistry,Graz University,https://www.wikidata.org/wiki/Q13298,https://www.wikipedia.org/wiki/Graz,https://www.wikidata.org/wiki/Q40
+12,1908,Physics,Sorbonne University,https://www.wikidata.org/wiki/Q90,https://www.wikipedia.org/wiki/Paris,https://www.wikidata.org/wiki/Q142
+708,1992,Economic Sciences,University of Chicago,https://www.wikidata.org/wiki/Q1297,https://www.wikipedia.org/wiki/Chicago,https://www.wikidata.org/wiki/Q30
+245,1973,Chemistry,Imperial College,https://www.wikidata.org/wiki/Q84,https://www.wikipedia.org/wiki/London,https://www.wikidata.org/wiki/Q145
+371,1961,Physiology or Medicine,Harvard University,https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+253,1979,Chemistry,University of Heidelberg,https://www.wikidata.org/wiki/Q2966,https://www.wikipedia.org/wiki/Heidelberg,https://www.wikidata.org/wiki/Q183
+744,2001,Economic Sciences,University of California,https://www.wikidata.org/wiki/Q484678,"https://www.wikipedia.org/wiki/Berkeley,_California",https://www.wikidata.org/wiki/Q30
+280,1994,Chemistry,University of Southern California,https://www.wikidata.org/wiki/Q65,https://www.wikipedia.org/wiki/Los_Angeles,https://www.wikidata.org/wiki/Q30
+364,1958,Physiology or Medicine,California Institute of Technology (Caltech),https://www.wikidata.org/wiki/Q485176,"https://www.wikipedia.org/wiki/Pasadena,_California",https://www.wikidata.org/wiki/Q30
+421,1980,Physiology or Medicine,Jackson Laboratory,https://www.wikidata.org/wiki/Q1672375,"https://www.wikipedia.org/wiki/Bar_Harbor,_Maine",https://www.wikidata.org/wiki/Q30
+201,1943,Chemistry,Stockholm University,https://www.wikidata.org/wiki/Q1754,https://www.wikipedia.org/wiki/Stockholm,https://www.wikidata.org/wiki/Q34
+405,1974,Physiology or Medicine,"Yale University, School of Medicine",https://www.wikidata.org/wiki/Q49145,"https://www.wikipedia.org/wiki/New_Haven,_Connecticut",https://www.wikidata.org/wiki/Q30
+840,2009,Physics,Bell Laboratories,https://www.wikidata.org/wiki/Q984466,"https://www.wikipedia.org/wiki/Murray_Hill,_New_Jersey",https://www.wikidata.org/wiki/Q30
+805,2006,Physics,University of California,https://www.wikidata.org/wiki/Q484678,"https://www.wikipedia.org/wiki/Berkeley,_California",https://www.wikidata.org/wiki/Q30
+439,1988,Physiology or Medicine,Wellcome Research Laboratories,https://www.wikidata.org/wiki/Q1187093,https://www.wikipedia.org/wiki/Research_Triangle_Park,https://www.wikidata.org/wiki/Q30
+326,1934,Physiology or Medicine,University of Rochester,https://www.wikidata.org/wiki/Q49218,"https://www.wikipedia.org/wiki/Rochester,_New_York",https://www.wikidata.org/wiki/Q30
+696,1982,Economic Sciences,University of Chicago,https://www.wikidata.org/wiki/Q1297,https://www.wikipedia.org/wiki/Chicago,https://www.wikidata.org/wiki/Q30
+964,2018,Chemistry,University of Missouri,https://www.wikidata.org/wiki/Q59670,"https://www.wikipedia.org/wiki/Columbia,_Missouri",https://www.wikidata.org/wiki/Q30
+45,1937,Physics,London University,https://www.wikidata.org/wiki/Q84,https://www.wikipedia.org/wiki/London,https://www.wikidata.org/wiki/Q145
+235,1967,Chemistry,Royal Institution of Great Britain,https://www.wikidata.org/wiki/Q84,https://www.wikipedia.org/wiki/London,https://www.wikidata.org/wiki/Q145
+327,1934,Physiology or Medicine,Harvard University,https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+387,1967,Physiology or Medicine,Harvard University,https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+142,1992,Physics,École Supérieure de Physique et Chimie,https://www.wikidata.org/wiki/Q90,https://www.wikipedia.org/wiki/Paris,https://www.wikidata.org/wiki/Q142
+142,1992,Physics,CERN,https://www.wikidata.org/wiki/Q71,https://www.wikipedia.org/wiki/Geneva,https://www.wikidata.org/wiki/Q39
+430,1984,Physiology or Medicine,Basel Institute for Immunology,https://www.wikidata.org/wiki/Q78,https://www.wikipedia.org/wiki/Basel,https://www.wikidata.org/wiki/Q39
+398,1972,Physiology or Medicine,Rockefeller University,https://www.wikidata.org/wiki/Q60,https://www.wikipedia.org/wiki/New_York_City,https://www.wikidata.org/wiki/Q30
+697,1983,Economic Sciences,University of California,https://www.wikidata.org/wiki/Q484678,"https://www.wikipedia.org/wiki/Berkeley,_California",https://www.wikidata.org/wiki/Q30
+961,2018,Physics,École Polytechnique,https://www.wikidata.org/wiki/Q205580,https://www.wikipedia.org/wiki/Palaiseau,https://www.wikidata.org/wiki/Q142
+961,2018,Physics,University of Michigan,https://www.wikidata.org/wiki/Q485172,"https://www.wikipedia.org/wiki/Ann_Arbor,_Michigan",https://www.wikidata.org/wiki/Q30
+158,1999,Physics,Utrecht University,https://www.wikidata.org/wiki/Q803,https://www.wikipedia.org/wiki/Utrecht,https://www.wikidata.org/wiki/Q55
+128,1986,Physics,IBM Zurich Research Laboratory,https://www.wikidata.org/wiki/Q66819,https://www.wikipedia.org/wiki/R%C3%BCschlikon,https://www.wikidata.org/wiki/Q39
+334,1939,Physiology or Medicine,Munster University,https://www.wikidata.org/wiki/Q2742,https://www.wikipedia.org/wiki/M%C3%BCnster,https://www.wikidata.org/wiki/Q183
+816,2007,Chemistry,Fritz-Haber-Institut der Max-Planck-Gesellschaft,https://www.wikidata.org/wiki/Q64,https://www.wikipedia.org/wiki/Berlin,https://www.wikidata.org/wiki/Q183
+240,1971,Chemistry,National Research Council of Canada,https://www.wikidata.org/wiki/Q1930,https://www.wikipedia.org/wiki/Ottawa,https://www.wikidata.org/wiki/Q16
+438,1988,Physiology or Medicine,Wellcome Research Laboratories,https://www.wikidata.org/wiki/Q1187093,https://www.wikipedia.org/wiki/Research_Triangle_Park,https://www.wikidata.org/wiki/Q30
+344,1947,Physiology or Medicine,Washington University,https://www.wikidata.org/wiki/Q38022,https://www.wikipedia.org/wiki/St._Louis,https://www.wikidata.org/wiki/Q30
+229,1963,Chemistry,Institute of Technology,https://www.wikidata.org/wiki/Q490,https://www.wikipedia.org/wiki/Milan,https://www.wikidata.org/wiki/Q38
+213,1951,Chemistry,University of California,https://www.wikidata.org/wiki/Q484678,"https://www.wikipedia.org/wiki/Berkeley,_California",https://www.wikidata.org/wiki/Q30
+418,1979,Physiology or Medicine,"Central Research Laboratories, EMI",https://www.wikidata.org/wiki/Q84,https://www.wikipedia.org/wiki/London,https://www.wikidata.org/wiki/Q145
+972,2019,Physiology or Medicine,Johns Hopkins University,https://www.wikidata.org/wiki/Q5092,https://www.wikipedia.org/wiki/Baltimore,https://www.wikidata.org/wiki/Q30
+13,1909,Physics,Marconi Wireless Telegraph Co. Ltd.,https://www.wikidata.org/wiki/Q84,https://www.wikipedia.org/wiki/London,https://www.wikidata.org/wiki/Q145
+461,1999,Physiology or Medicine,Rockefeller University,https://www.wikidata.org/wiki/Q60,https://www.wikipedia.org/wiki/New_York_City,https://www.wikidata.org/wiki/Q30
+17,1912,Physics,Swedish Gas-Accumulator Co.,https://www.wikidata.org/wiki/Q54349,https://www.wikipedia.org/wiki/Liding%C3%B6,https://www.wikidata.org/wiki/Q34
+31,1925,Physics,Halle University,https://www.wikidata.org/wiki/Q2814,https://www.wikipedia.org/wiki/Halle_(Saale),https://www.wikidata.org/wiki/Q183
+777,2004,Physics,California Institute of Technology (Caltech),https://www.wikidata.org/wiki/Q485176,"https://www.wikipedia.org/wiki/Pasadena,_California",https://www.wikidata.org/wiki/Q30
+389,1968,Physiology or Medicine,University of Wisconsin,https://www.wikidata.org/wiki/Q43788,"https://www.wikipedia.org/wiki/Madison,_Wisconsin",https://www.wikidata.org/wiki/Q30
+751,2002,Physiology or Medicine,Massachusetts Institute of Technology (MIT),https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+416,1978,Physiology or Medicine,Johns Hopkins University School of Medicine,https://www.wikidata.org/wiki/Q5092,https://www.wikipedia.org/wiki/Baltimore,https://www.wikidata.org/wiki/Q30
+91,1970,Physics,Royal Institute of Technology,https://www.wikidata.org/wiki/Q1754,https://www.wikipedia.org/wiki/Stockholm,https://www.wikidata.org/wiki/Q34
+88,1967,Physics,Cornell University,https://www.wikidata.org/wiki/Q217346,"https://www.wikipedia.org/wiki/Ithaca,_New_York",https://www.wikidata.org/wiki/Q30
+188,1930,Chemistry,Technische Hochschule (Institute of Technology),https://www.wikidata.org/wiki/Q1726,https://www.wikipedia.org/wiki/Munich,https://www.wikidata.org/wiki/Q183
+136,1989,Physics,University of Washington,https://www.wikidata.org/wiki/Q5083,https://www.wikipedia.org/wiki/Seattle,https://www.wikidata.org/wiki/Q30
+354,1953,Physiology or Medicine,Sheffield University,https://www.wikidata.org/wiki/Q42448,https://www.wikipedia.org/wiki/Sheffield,https://www.wikidata.org/wiki/Q145
+329,1935,Physiology or Medicine,University of Freiburg im Breisgau,https://www.wikidata.org/wiki/Q690971,https://www.wikipedia.org/wiki/Breisgau,https://www.wikidata.org/wiki/Q183
+187,1929,Chemistry,Stockholm University,https://www.wikidata.org/wiki/Q1754,https://www.wikipedia.org/wiki/Stockholm,https://www.wikidata.org/wiki/Q34
+823,2008,Physiology or Medicine,German Cancer Research Center,https://www.wikidata.org/wiki/Q2966,https://www.wikipedia.org/wiki/Heidelberg,https://www.wikidata.org/wiki/Q183
+192,1934,Chemistry,Columbia University,https://www.wikidata.org/wiki/Q60,https://www.wikipedia.org/wiki/New_York_City,https://www.wikidata.org/wiki/Q30
+441,1989,Physiology or Medicine,University of California School of Medicine,https://www.wikidata.org/wiki/Q62,https://www.wikipedia.org/wiki/San_Francisco,https://www.wikidata.org/wiki/Q30
+704,1990,Economic Sciences,City University of New York,https://www.wikidata.org/wiki/Q60,https://www.wikipedia.org/wiki/New_York_City,https://www.wikidata.org/wiki/Q30
+272,1988,Chemistry,Max-Planck-Institut für Biophysik,https://www.wikidata.org/wiki/Q1794,https://www.wikipedia.org/wiki/Frankfurt,https://www.wikidata.org/wiki/Q183
+985,2020,Physiology or Medicine,National Institutes of Health,https://www.wikidata.org/wiki/Q584451,"https://www.wikipedia.org/wiki/Bethesda,_Maryland",https://www.wikidata.org/wiki/Q30
+18,1913,Physics,Leiden University,https://www.wikidata.org/wiki/Q43631,https://www.wikipedia.org/wiki/Leiden,https://www.wikidata.org/wiki/Q55
+129,1986,Physics,IBM Zurich Research Laboratory,https://www.wikidata.org/wiki/Q66819,https://www.wikipedia.org/wiki/R%C3%BCschlikon,https://www.wikidata.org/wiki/Q39
+184,1927,Chemistry,Munich University,https://www.wikidata.org/wiki/Q1726,https://www.wikipedia.org/wiki/Munich,https://www.wikidata.org/wiki/Q183
+2,1902,Physics,Leiden University,https://www.wikidata.org/wiki/Q43631,https://www.wikipedia.org/wiki/Leiden,https://www.wikidata.org/wiki/Q55
+4,1903,Physics,École Polytechnique,https://www.wikidata.org/wiki/Q90,https://www.wikipedia.org/wiki/Paris,https://www.wikidata.org/wiki/Q142
+165,1906,Chemistry,Sorbonne University,https://www.wikidata.org/wiki/Q90,https://www.wikipedia.org/wiki/Paris,https://www.wikidata.org/wiki/Q142
+335,1943,Physiology or Medicine,Polytechnic Institute,https://www.wikidata.org/wiki/Q1748,https://www.wikipedia.org/wiki/Copenhagen,https://www.wikidata.org/wiki/Q35
+260,1983,Chemistry,Stanford University,https://www.wikidata.org/wiki/Q173813,"https://www.wikipedia.org/wiki/Stanford,_California",https://www.wikidata.org/wiki/Q30
+139,1990,Physics,Massachusetts Institute of Technology (MIT),https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+262,1985,Chemistry,The Medical Foundation of Buffalo,https://www.wikidata.org/wiki/Q40435,"https://www.wikipedia.org/wiki/Buffalo,_New_York",https://www.wikidata.org/wiki/Q30
+252,1979,Chemistry,Purdue University,https://www.wikidata.org/wiki/Q166481,"https://www.wikipedia.org/wiki/West_Lafayette,_Indiana",https://www.wikidata.org/wiki/Q30
+727,2000,Physics,University of California,https://www.wikidata.org/wiki/Q159288,"https://www.wikipedia.org/wiki/Santa_Barbara,_California",https://www.wikidata.org/wiki/Q30
+338,1944,Physiology or Medicine,Rockefeller Institute for Medical Research,https://www.wikidata.org/wiki/Q60,https://www.wikipedia.org/wiki/New_York_City,https://www.wikidata.org/wiki/Q30
+691,1978,Economic Sciences,Carnegie Mellon University,https://www.wikidata.org/wiki/Q1342,https://www.wikipedia.org/wiki/Pittsburgh,https://www.wikidata.org/wiki/Q30
+342,1946,Physiology or Medicine,Indiana University,https://www.wikidata.org/wiki/Q490385,"https://www.wikipedia.org/wiki/Bloomington,_Indiana",https://www.wikidata.org/wiki/Q30
+216,1953,Chemistry,University of Freiburg,https://www.wikidata.org/wiki/Q690971,https://www.wikipedia.org/wiki/Breisgau,https://www.wikidata.org/wiki/Q183
+216,1953,Chemistry,"Staatliches Institut für makromolekulare Chemie (State Research Institute for Macromolecular Chemistry), Freiburg",https://www.wikidata.org/wiki/Q690971,https://www.wikipedia.org/wiki/Breisgau,https://www.wikidata.org/wiki/Q183
+731,2000,Chemistry,University of Tsukuba,https://www.wikidata.org/wiki/Q1490,https://www.wikipedia.org/wiki/Tokyo,https://www.wikidata.org/wiki/Q17
+54,1949,Physics,Kyoto Imperial University,https://www.wikidata.org/wiki/Q34600,https://www.wikipedia.org/wiki/Kyoto,https://www.wikidata.org/wiki/Q17
+54,1949,Physics,Columbia University,https://www.wikidata.org/wiki/Q60,https://www.wikipedia.org/wiki/New_York_City,https://www.wikidata.org/wiki/Q30
+907,2014,Physics,Nagoya University,https://www.wikidata.org/wiki/Q11751,https://www.wikipedia.org/wiki/Nagoya,https://www.wikidata.org/wiki/Q17
+156,1998,Physics,Columbia University,https://www.wikidata.org/wiki/Q60,https://www.wikipedia.org/wiki/New_York_City,https://www.wikidata.org/wiki/Q30
+408,1975,Physiology or Medicine,University of Wisconsin,https://www.wikidata.org/wiki/Q43788,"https://www.wikipedia.org/wiki/Madison,_Wisconsin",https://www.wikidata.org/wiki/Q30
+359,1955,Physiology or Medicine,"Karolinska Institutet, Nobel Medical Institute",https://www.wikidata.org/wiki/Q1754,https://www.wikipedia.org/wiki/Stockholm,https://www.wikidata.org/wiki/Q34
+71,1958,Physics,Lomonosov Moscow State University,https://www.wikidata.org/wiki/Q649,https://www.wikipedia.org/wiki/Moscow,https://www.wikidata.org/wiki/Q159
+71,1958,Physics,P.N. Lebedev Physical Institute,https://www.wikidata.org/wiki/Q649,https://www.wikipedia.org/wiki/Moscow,https://www.wikidata.org/wiki/Q159
+721,1958,Physics,Lomonosov Moscow State University,https://www.wikidata.org/wiki/Q649,https://www.wikipedia.org/wiki/Moscow,https://www.wikidata.org/wiki/Q159
+721,1958,Physics,P.N. Lebedev Physical Institute,https://www.wikidata.org/wiki/Q649,https://www.wikipedia.org/wiki/Moscow,https://www.wikidata.org/wiki/Q159
+301,1908,Physiology or Medicine,Institut Pasteur,https://www.wikidata.org/wiki/Q90,https://www.wikipedia.org/wiki/Paris,https://www.wikidata.org/wiki/Q142
+250,1977,Chemistry,Université Libre de Bruxelles,https://www.wikidata.org/wiki/Q239,https://www.wikipedia.org/wiki/City_of_Brussels,https://www.wikidata.org/wiki/Q31
+250,1977,Chemistry,University of Texas,https://www.wikidata.org/wiki/Q16559,"https://www.wikipedia.org/wiki/Austin,_Texas",https://www.wikidata.org/wiki/Q30
+194,1935,Chemistry,Institut du Radium,https://www.wikidata.org/wiki/Q90,https://www.wikipedia.org/wiki/Paris,https://www.wikidata.org/wiki/Q142
+191,1932,Chemistry,General Electric Company,https://www.wikidata.org/wiki/Q331380,"https://www.wikipedia.org/wiki/Schenectady,_New_York",https://www.wikidata.org/wiki/Q30
+781,2004,Chemistry,University of California,https://www.wikidata.org/wiki/Q49219,"https://www.wikipedia.org/wiki/Irvine,_California",https://www.wikidata.org/wiki/Q30
+906,2014,Physics,Meijo University,https://www.wikidata.org/wiki/Q11751,https://www.wikipedia.org/wiki/Nagoya,https://www.wikidata.org/wiki/Q17
+906,2014,Physics,Nagoya University,https://www.wikidata.org/wiki/Q11751,https://www.wikipedia.org/wiki/Nagoya,https://www.wikidata.org/wiki/Q17
+49,1944,Physics,Columbia University,https://www.wikidata.org/wiki/Q60,https://www.wikipedia.org/wiki/New_York_City,https://www.wikidata.org/wiki/Q30
+296,1904,Physiology or Medicine,Military Medical Academy,https://www.wikidata.org/wiki/Q656,https://www.wikipedia.org/wiki/Saint_Petersburg,https://www.wikidata.org/wiki/Q159
+98,1973,Physics,General Electric Company,https://www.wikidata.org/wiki/Q331380,"https://www.wikipedia.org/wiki/Schenectady,_New_York",https://www.wikidata.org/wiki/Q30
+130,1987,Physics,IBM Zurich Research Laboratory,https://www.wikidata.org/wiki/Q66819,https://www.wikipedia.org/wiki/R%C3%BCschlikon,https://www.wikidata.org/wiki/Q39
+80,1963,Physics,University of Heidelberg,https://www.wikidata.org/wiki/Q2966,https://www.wikipedia.org/wiki/Heidelberg,https://www.wikidata.org/wiki/Q183
+440,1989,Physiology or Medicine,University of California School of Medicine,https://www.wikidata.org/wiki/Q62,https://www.wikipedia.org/wiki/San_Francisco,https://www.wikidata.org/wiki/Q30
+930,2016,Physics,Brown University,https://www.wikidata.org/wiki/Q18383,"https://www.wikipedia.org/wiki/Providence,_Rhode_Island",https://www.wikidata.org/wiki/Q30
+10,1906,Physics,University of Cambridge,https://www.wikidata.org/wiki/Q350,https://www.wikipedia.org/wiki/Cambridge,https://www.wikidata.org/wiki/Q145
+728,2000,Physics,Texas Instruments,https://www.wikidata.org/wiki/Q16557,https://www.wikipedia.org/wiki/Dallas,https://www.wikidata.org/wiki/Q30
+134,1988,Physics,CERN,https://www.wikidata.org/wiki/Q71,https://www.wikipedia.org/wiki/Geneva,https://www.wikidata.org/wiki/Q39
+837,2009,Physiology or Medicine,Harvard Medical School,https://www.wikidata.org/wiki/Q100,https://www.wikipedia.org/wiki/Boston,https://www.wikidata.org/wiki/Q30
+837,2009,Physiology or Medicine,Massachusetts General Hospital,https://www.wikidata.org/wiki/Q100,https://www.wikipedia.org/wiki/Boston,https://www.wikidata.org/wiki/Q30
+160,1901,Chemistry,Berlin University,https://www.wikidata.org/wiki/Q64,https://www.wikipedia.org/wiki/Berlin,https://www.wikidata.org/wiki/Q183
+944,2017,Chemistry,University of Lausanne,https://www.wikidata.org/wiki/Q807,https://www.wikipedia.org/wiki/Lausanne,https://www.wikidata.org/wiki/Q39
+382,1965,Physiology or Medicine,Institut Pasteur,https://www.wikidata.org/wiki/Q90,https://www.wikipedia.org/wiki/Paris,https://www.wikidata.org/wiki/Q142
+715,1996,Economic Sciences,University of Cambridge,https://www.wikidata.org/wiki/Q350,https://www.wikipedia.org/wiki/Cambridge,https://www.wikidata.org/wiki/Q145
+204,1946,Chemistry,Cornell University,https://www.wikidata.org/wiki/Q217346,"https://www.wikipedia.org/wiki/Ithaca,_New_York",https://www.wikidata.org/wiki/Q30
+41,1935,Physics,Liverpool University,https://www.wikidata.org/wiki/Q24826,https://www.wikipedia.org/wiki/Liverpool,https://www.wikidata.org/wiki/Q145
+116,1980,Physics,University of Chicago,https://www.wikidata.org/wiki/Q1297,https://www.wikipedia.org/wiki/Chicago,https://www.wikidata.org/wiki/Q30
+690,1977,Economic Sciences,University of Cambridge,https://www.wikidata.org/wiki/Q350,https://www.wikipedia.org/wiki/Cambridge,https://www.wikidata.org/wiki/Q145
+884,2013,Physiology or Medicine,Yale University,https://www.wikidata.org/wiki/Q49145,"https://www.wikipedia.org/wiki/New_Haven,_Connecticut",https://www.wikidata.org/wiki/Q30
+30,1925,Physics,Goettingen University,https://www.wikidata.org/wiki/Q3033,https://www.wikipedia.org/wiki/G%C3%B6ttingen,https://www.wikidata.org/wiki/Q183
+732,2000,Economic Sciences,University of Chicago,https://www.wikidata.org/wiki/Q1297,https://www.wikipedia.org/wiki/Chicago,https://www.wikidata.org/wiki/Q30
+700,1986,Economic Sciences,Center for Study of Public Choice,https://www.wikidata.org/wiki/Q501785,"https://www.wikipedia.org/wiki/Fairfax,_Virginia",https://www.wikidata.org/wiki/Q30
+958,2018,Physiology or Medicine,Parker Institute for Cancer Immunotherapy,https://www.wikidata.org/wiki/Q62,https://www.wikipedia.org/wiki/San_Francisco,https://www.wikidata.org/wiki/Q30
+958,2018,Physiology or Medicine,University of Texas MD Anderson Cancer Center,https://www.wikidata.org/wiki/Q16555,https://www.wikipedia.org/wiki/Houston,https://www.wikidata.org/wiki/Q30
+973,2019,Physics,Princeton University,https://www.wikidata.org/wiki/Q138518,"https://www.wikipedia.org/wiki/Princeton,_New_Jersey",https://www.wikidata.org/wiki/Q30
+104,1975,Physics,Columbia University,https://www.wikidata.org/wiki/Q60,https://www.wikipedia.org/wiki/New_York_City,https://www.wikidata.org/wiki/Q30
+695,1981,Economic Sciences,Yale University,https://www.wikidata.org/wiki/Q49145,"https://www.wikipedia.org/wiki/New_Haven,_Connecticut",https://www.wikidata.org/wiki/Q30
+373,1962,Physiology or Medicine,Harvard University,https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+678,1969,Economic Sciences,The Netherlands School of Economics,https://www.wikidata.org/wiki/Q34370,https://www.wikipedia.org/wiki/Rotterdam,https://www.wikidata.org/wiki/Q55
+223,1959,Chemistry,Polarographic Institute of the Czechoslovak Academy of Science,https://www.wikidata.org/wiki/Q1085,https://www.wikipedia.org/wiki/Prague,https://www.wikidata.org/wiki/Q213
+32,1926,Physics,Sorbonne University,https://www.wikidata.org/wiki/Q90,https://www.wikipedia.org/wiki/Paris,https://www.wikidata.org/wiki/Q142
+420,1980,Physiology or Medicine,"Université de Paris, Laboratoire Immuno-Hématologie",https://www.wikidata.org/wiki/Q90,https://www.wikipedia.org/wiki/Paris,https://www.wikidata.org/wiki/Q142
+915,2014,Economic Sciences,Toulouse School of Economics (TSE),https://www.wikidata.org/wiki/Q7880,https://www.wikipedia.org/wiki/Toulouse,https://www.wikidata.org/wiki/Q142
+268,1987,Chemistry,Université Louis Pasteur,https://www.wikidata.org/wiki/Q6602,https://www.wikipedia.org/wiki/Strasbourg,https://www.wikidata.org/wiki/Q142
+268,1987,Chemistry,Collège de France,https://www.wikidata.org/wiki/Q90,https://www.wikipedia.org/wiki/Paris,https://www.wikidata.org/wiki/Q142
+931,2016,Chemistry,University of Strasbourg,https://www.wikidata.org/wiki/Q6602,https://www.wikipedia.org/wiki/Strasbourg,https://www.wikidata.org/wiki/Q142
+938,2017,Physiology or Medicine,University of Maine,https://www.wikidata.org/wiki/Q724,https://www.wikipedia.org/wiki/Maine,https://www.wikidata.org/wiki/Q30
+992,2020,Chemistry,University of California,https://www.wikidata.org/wiki/Q484678,"https://www.wikipedia.org/wiki/Berkeley,_California",https://www.wikidata.org/wiki/Q30
+289,1997,Chemistry,Aarhus University,https://www.wikidata.org/wiki/Q25319,https://www.wikipedia.org/wiki/Aarhus,https://www.wikidata.org/wiki/Q35
+138,1990,Physics,Massachusetts Institute of Technology (MIT),https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+263,1985,Chemistry,US Naval Research Laboratory,https://www.wikidata.org/wiki/Q61,"https://www.wikipedia.org/wiki/Washington,_D.C.",https://www.wikidata.org/wiki/Q30
+945,2017,Chemistry,Columbia University,https://www.wikidata.org/wiki/Q60,https://www.wikipedia.org/wiki/New_York_City,https://www.wikidata.org/wiki/Q30
+270,1988,Chemistry,University of Texas Southwestern Medical Center at Dallas,https://www.wikidata.org/wiki/Q16557,https://www.wikipedia.org/wiki/Dallas,https://www.wikidata.org/wiki/Q30
+15,1910,Physics,Amsterdam University,https://www.wikidata.org/wiki/Q727,https://www.wikipedia.org/wiki/Amsterdam,https://www.wikidata.org/wiki/Q55
+316,1926,Physiology or Medicine,Copenhagen University,https://www.wikidata.org/wiki/Q1748,https://www.wikipedia.org/wiki/Copenhagen,https://www.wikidata.org/wiki/Q35
+24,1919,Physics,Greifswald University,https://www.wikidata.org/wiki/Q4098,https://www.wikipedia.org/wiki/Greifswald,https://www.wikidata.org/wiki/Q183
+756,2002,Chemistry,Virginia Commonwealth University,https://www.wikidata.org/wiki/Q43421,"https://www.wikipedia.org/wiki/Richmond,_Virginia",https://www.wikidata.org/wiki/Q30
+976,2019,Chemistry,University of Texas,https://www.wikidata.org/wiki/Q16559,"https://www.wikipedia.org/wiki/Austin,_Texas",https://www.wikidata.org/wiki/Q30
+66,1956,Physics,University of Illinois,https://www.wikidata.org/wiki/Q462184,"https://www.wikipedia.org/wiki/Urbana,_Illinois",https://www.wikidata.org/wiki/Q30
+66,1972,Physics,University of Illinois,https://www.wikidata.org/wiki/Q462184,"https://www.wikipedia.org/wiki/Urbana,_Illinois",https://www.wikidata.org/wiki/Q30
+711,1994,Economic Sciences,University of California,https://www.wikidata.org/wiki/Q484678,"https://www.wikipedia.org/wiki/Berkeley,_California",https://www.wikidata.org/wiki/Q30
+227,1962,Chemistry,MRC Laboratory of Molecular Biology,https://www.wikidata.org/wiki/Q350,https://www.wikipedia.org/wiki/Cambridge,https://www.wikidata.org/wiki/Q145
+804,2006,Physics,NASA Goddard Space Flight Center,https://www.wikidata.org/wiki/Q755877,"https://www.wikipedia.org/wiki/Greenbelt,_Maryland",https://www.wikidata.org/wiki/Q30
+266,1986,Chemistry,University of Toronto,https://www.wikidata.org/wiki/Q172,https://www.wikipedia.org/wiki/Toronto,https://www.wikidata.org/wiki/Q16
+247,1975,Chemistry,University of Sussex,https://www.wikidata.org/wiki/Q131491,https://www.wikipedia.org/wiki/Brighton,https://www.wikidata.org/wiki/Q145
+752,2002,Physiology or Medicine,The Wellcome Trust Sanger Institute,https://www.wikidata.org/wiki/Q350,https://www.wikipedia.org/wiki/Cambridge,https://www.wikidata.org/wiki/Q145
+288,1997,Chemistry,MRC Laboratory of Molecular Biology,https://www.wikidata.org/wiki/Q350,https://www.wikipedia.org/wiki/Cambridge,https://www.wikidata.org/wiki/Q145
+356,1954,Physiology or Medicine,Harvard Medical School,https://www.wikidata.org/wiki/Q100,https://www.wikipedia.org/wiki/Boston,https://www.wikidata.org/wiki/Q30
+356,1954,Physiology or Medicine,"Research Division of Infectious Diseases, Children's Medical Center",https://www.wikidata.org/wiki/Q100,https://www.wikipedia.org/wiki/Boston,https://www.wikidata.org/wiki/Q30
+712,1994,Economic Sciences,Princeton University,https://www.wikidata.org/wiki/Q138518,"https://www.wikipedia.org/wiki/Princeton,_New_Jersey",https://www.wikidata.org/wiki/Q30
+205,1946,Chemistry,Rockefeller Institute for Medical Research,https://www.wikidata.org/wiki/Q138518,"https://www.wikipedia.org/wiki/Princeton,_New_Jersey",https://www.wikidata.org/wiki/Q30
+109,1977,Physics,Harvard University,https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+792,2005,Physics,"University of Colorado, JILA",https://www.wikidata.org/wiki/Q192517,"https://www.wikipedia.org/wiki/Boulder,_Colorado",https://www.wikidata.org/wiki/Q30
+792,2005,Physics,National Institute of Standards and Technology,https://www.wikidata.org/wiki/Q192517,"https://www.wikipedia.org/wiki/Boulder,_Colorado",https://www.wikidata.org/wiki/Q30
+314,1923,Physiology or Medicine,University of Toronto,https://www.wikidata.org/wiki/Q172,https://www.wikipedia.org/wiki/Toronto,https://www.wikidata.org/wiki/Q16
+903,2014,Physiology or Medicine,University College,https://www.wikidata.org/wiki/Q84,https://www.wikipedia.org/wiki/London,https://www.wikidata.org/wiki/Q145
+291,1998,Chemistry,Northwestern University,https://www.wikidata.org/wiki/Q462799,"https://www.wikipedia.org/wiki/Evanston,_Illinois",https://www.wikidata.org/wiki/Q30
+681,1972,Economic Sciences,All Souls College,https://www.wikidata.org/wiki/Q34217,https://www.wikipedia.org/wiki/Oxford,https://www.wikidata.org/wiki/Q145
+427,1982,Physiology or Medicine,The Wellcome Research Laboratories,https://www.wikidata.org/wiki/Q123372,https://www.wikipedia.org/wiki/Beckenham,https://www.wikidata.org/wiki/Q145
+442,1990,Physiology or Medicine,Brigham and Women's Hospital,https://www.wikidata.org/wiki/Q100,https://www.wikipedia.org/wiki/Boston,https://www.wikidata.org/wiki/Q30
+746,2001,Economic Sciences,Columbia University,https://www.wikidata.org/wiki/Q60,https://www.wikipedia.org/wiki/New_York_City,https://www.wikidata.org/wiki/Q30
+337,1944,Physiology or Medicine,Washington University,https://www.wikidata.org/wiki/Q38022,https://www.wikipedia.org/wiki/St._Louis,https://www.wikidata.org/wiki/Q30
+144,1993,Physics,Princeton University,https://www.wikidata.org/wiki/Q138518,"https://www.wikipedia.org/wiki/Princeton,_New_Jersey",https://www.wikidata.org/wiki/Q30
+433,1985,Physiology or Medicine,University of Texas Southwestern Medical Center at Dallas,https://www.wikidata.org/wiki/Q16557,https://www.wikipedia.org/wiki/Dallas,https://www.wikidata.org/wiki/Q30
+366,1958,Physiology or Medicine,University of Wisconsin,https://www.wikidata.org/wiki/Q43788,"https://www.wikipedia.org/wiki/Madison,_Wisconsin",https://www.wikidata.org/wiki/Q30
+862,2011,Physiology or Medicine,University of Strasbourg,https://www.wikidata.org/wiki/Q6602,https://www.wikipedia.org/wiki/Strasbourg,https://www.wikidata.org/wiki/Q142
+309,1919,Physiology or Medicine,Brussels University,https://www.wikidata.org/wiki/Q239,https://www.wikipedia.org/wiki/City_of_Brussels,https://www.wikidata.org/wiki/Q31
+85,1965,Physics,Harvard University,https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+396,1970,Physiology or Medicine,National Institutes of Health,https://www.wikidata.org/wiki/Q584451,"https://www.wikipedia.org/wiki/Bethesda,_Maryland",https://www.wikidata.org/wiki/Q30
+317,1927,Physiology or Medicine,Vienna University,https://www.wikidata.org/wiki/Q1741,https://www.wikipedia.org/wiki/Vienna,https://www.wikidata.org/wiki/Q40
+131,1987,Physics,IBM Zurich Research Laboratory,https://www.wikidata.org/wiki/Q66819,https://www.wikipedia.org/wiki/R%C3%BCschlikon,https://www.wikidata.org/wiki/Q39
+120,1981,Physics,Uppsala University,https://www.wikidata.org/wiki/Q25286,https://www.wikipedia.org/wiki/Uppsala,https://www.wikidata.org/wiki/Q34
+321,1930,Physiology or Medicine,Rockefeller Institute for Medical Research,https://www.wikidata.org/wiki/Q60,https://www.wikipedia.org/wiki/New_York_City,https://www.wikidata.org/wiki/Q30
+400,1973,Physiology or Medicine,Zoologisches Institut der Universität München,https://www.wikidata.org/wiki/Q1726,https://www.wikipedia.org/wiki/Munich,https://www.wikidata.org/wiki/Q183
+228,1963,Chemistry,Max-Planck-Institut für Kohlenforschung (Max-Planck-Institute for Carbon Research),https://www.wikidata.org/wiki/Q2899,https://www.wikipedia.org/wiki/M%C3%BClheim,https://www.wikidata.org/wiki/Q183
+386,1967,Physiology or Medicine,Rockefeller University,https://www.wikidata.org/wiki/Q60,https://www.wikipedia.org/wiki/New_York_City,https://www.wikidata.org/wiki/Q30
+257,1981,Chemistry,Kyoto University,https://www.wikidata.org/wiki/Q34600,https://www.wikipedia.org/wiki/Kyoto,https://www.wikidata.org/wiki/Q17
+121,1982,Physics,Cornell University,https://www.wikidata.org/wiki/Q217346,"https://www.wikipedia.org/wiki/Ithaca,_New_York",https://www.wikidata.org/wiki/Q30
+682,1972,Economic Sciences,Harvard University,https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+943,2017,Physics,California Institute of Technology (Caltech),https://www.wikidata.org/wiki/Q485176,"https://www.wikipedia.org/wiki/Pasadena,_California",https://www.wikidata.org/wiki/Q30
+126,1985,Physics,Max-Planck-Institut für Festkörperforschung,https://www.wikidata.org/wiki/Q1022,https://www.wikipedia.org/wiki/Stuttgart,https://www.wikidata.org/wiki/Q183
+757,2002,Chemistry,Shimadzu Corp.,https://www.wikidata.org/wiki/Q34600,https://www.wikipedia.org/wiki/Kyoto,https://www.wikidata.org/wiki/Q17
+378,1964,Physiology or Medicine,Harvard University,https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+850,2010,Physics,University of Manchester,https://www.wikidata.org/wiki/Q18125,https://www.wikipedia.org/wiki/Manchester,https://www.wikidata.org/wiki/Q145
+211,1950,Chemistry,Cologne University,https://www.wikidata.org/wiki/Q365,https://www.wikipedia.org/wiki/Cologne,https://www.wikidata.org/wiki/Q183
+758,2002,Chemistry,Eidgenössische Technische Hochschule (Swiss Federal Institute of Technology),https://www.wikidata.org/wiki/Q72,https://www.wikipedia.org/wiki/Z%C3%BCrich,https://www.wikidata.org/wiki/Q39
+758,2002,Chemistry,The Scripps Research Institute,https://www.wikidata.org/wiki/Q840668,https://www.wikipedia.org/wiki/La_Jolla,https://www.wikidata.org/wiki/Q30
+236,1968,Chemistry,Yale University,https://www.wikidata.org/wiki/Q49145,"https://www.wikipedia.org/wiki/New_Haven,_Connecticut",https://www.wikidata.org/wiki/Q30
+895,2013,Economic Sciences,University of Chicago,https://www.wikidata.org/wiki/Q1297,https://www.wikipedia.org/wiki/Chicago,https://www.wikidata.org/wiki/Q30
+21,1915,Physics,Victoria University,https://www.wikidata.org/wiki/Q18125,https://www.wikipedia.org/wiki/Manchester,https://www.wikidata.org/wiki/Q145
+694,1980,Economic Sciences,University of Pennsylvania,https://www.wikidata.org/wiki/Q1345,https://www.wikipedia.org/wiki/Philadelphia,https://www.wikidata.org/wiki/Q30
+735,2001,Physiology or Medicine,Fred Hutchinson Cancer Research Center,https://www.wikidata.org/wiki/Q5083,https://www.wikipedia.org/wiki/Seattle,https://www.wikidata.org/wiki/Q30
+97,1973,Physics,IBM Thomas J. Watson Research Center,https://www.wikidata.org/wiki/Q3316206,"https://www.wikipedia.org/wiki/Yorktown_Heights,_New_York",https://www.wikidata.org/wiki/Q30
+132,1988,Physics,Fermi National Accelerator Laboratory,https://www.wikidata.org/wiki/Q576876,"https://www.wikipedia.org/wiki/Batavia,_Illinois",https://www.wikidata.org/wiki/Q30
+95,1972,Physics,Brown University,https://www.wikidata.org/wiki/Q18383,"https://www.wikipedia.org/wiki/Providence,_Rhode_Island",https://www.wikidata.org/wiki/Q30
+820,2007,Economic Sciences,University of Minnesota,https://www.wikidata.org/wiki/Q36091,https://www.wikipedia.org/wiki/Minneapolis,https://www.wikidata.org/wiki/Q30
+686,1975,Economic Sciences,Academy of Sciences,https://www.wikidata.org/wiki/Q649,https://www.wikipedia.org/wiki/Moscow,https://www.wikidata.org/wiki/Q159
+200,1939,Chemistry,Eidgenössische Technische Hochschule (Swiss Federal Institute of Technology),https://www.wikidata.org/wiki/Q72,https://www.wikipedia.org/wiki/Z%C3%BCrich,https://www.wikidata.org/wiki/Q39
+77,1962,Physics,Academy of Sciences,https://www.wikidata.org/wiki/Q649,https://www.wikipedia.org/wiki/Moscow,https://www.wikidata.org/wiki/Q159
+775,2004,Physiology or Medicine,Fred Hutchinson Cancer Research Center,https://www.wikidata.org/wiki/Q5083,https://www.wikipedia.org/wiki/Seattle,https://www.wikidata.org/wiki/Q30
+217,1962,Peace,California Institute of Technology (Caltech),https://www.wikidata.org/wiki/Q485176,"https://www.wikipedia.org/wiki/Pasadena,_California",https://www.wikidata.org/wiki/Q30
+217,1954,Chemistry,California Institute of Technology (Caltech),https://www.wikidata.org/wiki/Q485176,"https://www.wikipedia.org/wiki/Pasadena,_California",https://www.wikidata.org/wiki/Q30
+883,2012,Economic Sciences,University of California,https://www.wikidata.org/wiki/Q65,https://www.wikipedia.org/wiki/Los_Angeles,https://www.wikidata.org/wiki/Q30
+8,1904,Physics,Royal Institution of Great Britain,https://www.wikidata.org/wiki/Q84,https://www.wikipedia.org/wiki/London,https://www.wikidata.org/wiki/Q145
+221,1957,Chemistry,University of Cambridge,https://www.wikidata.org/wiki/Q350,https://www.wikipedia.org/wiki/Cambridge,https://www.wikidata.org/wiki/Q145
+36,1929,Physics,"Sorbonne University, Institut Henri Poincaré",https://www.wikidata.org/wiki/Q90,https://www.wikipedia.org/wiki/Paris,https://www.wikidata.org/wiki/Q142
+459,1998,Physiology or Medicine,University of California School of Medicine,https://www.wikidata.org/wiki/Q65,https://www.wikipedia.org/wiki/Los_Angeles,https://www.wikidata.org/wiki/Q30
+92,1970,Physics,University of Grenoble,https://www.wikidata.org/wiki/Q1289,https://www.wikipedia.org/wiki/Grenoble,https://www.wikidata.org/wiki/Q142
+472,1907,Peace,Sorbonne University,https://www.wikidata.org/wiki/Q90,https://www.wikipedia.org/wiki/Paris,https://www.wikidata.org/wiki/Q142
+825,2008,Physiology or Medicine,World Foundation for AIDS Research and Prevention,https://www.wikidata.org/wiki/Q90,https://www.wikipedia.org/wiki/Paris,https://www.wikidata.org/wiki/Q142
+89,1968,Physics,University of California,https://www.wikidata.org/wiki/Q484678,"https://www.wikipedia.org/wiki/Berkeley,_California",https://www.wikidata.org/wiki/Q30
+239,1970,Chemistry,Institute for Biochemical Research,https://www.wikidata.org/wiki/Q1486,https://www.wikipedia.org/wiki/Buenos_Aires,https://www.wikidata.org/wiki/Q414
+977,2019,Chemistry,"Binghamton University, State University of New York",https://www.wikidata.org/wiki/Q60,https://www.wikipedia.org/wiki/New_York_City,https://www.wikidata.org/wiki/Q30
+827,2008,Physics,High Energy Accelerator Research Organization (KEK),https://www.wikidata.org/wiki/Q273863,"https://www.wikipedia.org/wiki/Tsukuba,_Ibaraki",https://www.wikidata.org/wiki/Q17
+233,1967,Chemistry,Max-Planck-Institut für Physikalische Chemie,https://www.wikidata.org/wiki/Q3033,https://www.wikipedia.org/wiki/G%C3%B6ttingen,https://www.wikidata.org/wiki/Q183
+29,1924,Physics,Uppsala University,https://www.wikidata.org/wiki/Q25286,https://www.wikipedia.org/wiki/Uppsala,https://www.wikidata.org/wiki/Q34
+79,1963,Physics,University of California,https://www.wikidata.org/wiki/Q16552,https://www.wikipedia.org/wiki/San_Diego,https://www.wikidata.org/wiki/Q30
+6,1911,Chemistry,Sorbonne University,https://www.wikidata.org/wiki/Q90,https://www.wikipedia.org/wiki/Paris,https://www.wikidata.org/wiki/Q142
+282,1995,Chemistry,Massachusetts Institute of Technology (MIT),https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+811,2007,Physiology or Medicine,University of Utah,https://www.wikidata.org/wiki/Q23337,https://www.wikipedia.org/wiki/Salt_Lake_City,https://www.wikidata.org/wiki/Q30
+390,1968,Physiology or Medicine,National Institutes of Health,https://www.wikidata.org/wiki/Q584451,"https://www.wikipedia.org/wiki/Bethesda,_Maryland",https://www.wikidata.org/wiki/Q30
+830,2008,Chemistry,Columbia University,https://www.wikidata.org/wiki/Q60,https://www.wikipedia.org/wiki/New_York_City,https://www.wikidata.org/wiki/Q30
+889,2013,Chemistry,Université de Strasbourg,https://www.wikidata.org/wiki/Q6602,https://www.wikipedia.org/wiki/Strasbourg,https://www.wikidata.org/wiki/Q142
+889,2013,Chemistry,Harvard University,https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+147,1995,Physics,Stanford University,https://www.wikidata.org/wiki/Q173813,"https://www.wikipedia.org/wiki/Stanford,_California",https://www.wikidata.org/wiki/Q30
+451,1994,Physiology or Medicine,National Institute of Environmental Health Sciences,https://www.wikidata.org/wiki/Q1187093,https://www.wikipedia.org/wiki/Research_Triangle_Park,https://www.wikidata.org/wiki/Q30
+100,1974,Physics,University of Cambridge,https://www.wikidata.org/wiki/Q350,https://www.wikipedia.org/wiki/Cambridge,https://www.wikidata.org/wiki/Q145
+754,2002,Physics,University of Tokyo,https://www.wikidata.org/wiki/Q1490,https://www.wikipedia.org/wiki/Tokyo,https://www.wikidata.org/wiki/Q17
+702,1988,Economic Sciences,École Nationale Supérieur des Mines de Paris,https://www.wikidata.org/wiki/Q90,https://www.wikipedia.org/wiki/Paris,https://www.wikidata.org/wiki/Q142
+374,1962,Physiology or Medicine,London University,https://www.wikidata.org/wiki/Q84,https://www.wikipedia.org/wiki/London,https://www.wikidata.org/wiki/Q145
+61,1954,Physics,Edinburgh University,https://www.wikidata.org/wiki/Q23436,https://www.wikipedia.org/wiki/Edinburgh,https://www.wikidata.org/wiki/Q145
+391,1969,Physiology or Medicine,California Institute of Technology (Caltech),https://www.wikidata.org/wiki/Q485176,"https://www.wikipedia.org/wiki/Pasadena,_California",https://www.wikidata.org/wiki/Q30
+226,1962,Chemistry,MRC Laboratory of Molecular Biology,https://www.wikidata.org/wiki/Q350,https://www.wikipedia.org/wiki/Cambridge,https://www.wikidata.org/wiki/Q145
+23,1918,Physics,Berlin University,https://www.wikidata.org/wiki/Q64,https://www.wikipedia.org/wiki/Berlin,https://www.wikidata.org/wiki/Q183
+352,1951,Physiology or Medicine,"Laboratories of the Division of Medicine and Public Health, Rockefeller Foundation",https://www.wikidata.org/wiki/Q60,https://www.wikipedia.org/wiki/New_York_City,https://www.wikidata.org/wiki/Q30
+19,1914,Physics,Frankfurt-on-the-Main University,https://www.wikidata.org/wiki/Q1794,https://www.wikipedia.org/wiki/Frankfurt,https://www.wikidata.org/wiki/Q183
+904,2014,Physiology or Medicine,Norwegian University of Science and Technology (NTNU),https://www.wikidata.org/wiki/Q25804,https://www.wikipedia.org/wiki/Trondheim,https://www.wikidata.org/wiki/Q20
+225,1961,Chemistry,University of California,https://www.wikidata.org/wiki/Q484678,"https://www.wikipedia.org/wiki/Berkeley,_California",https://www.wikidata.org/wiki/Q30
+133,1988,Physics,"Digital Pathways, Inc.",https://www.wikidata.org/wiki/Q486860,"https://www.wikipedia.org/wiki/Mountain_View,_California",https://www.wikidata.org/wiki/Q30
+705,1990,Economic Sciences,University of Chicago,https://www.wikidata.org/wiki/Q1297,https://www.wikipedia.org/wiki/Chicago,https://www.wikidata.org/wiki/Q30
+986,2020,Physiology or Medicine,University of Alberta,https://www.wikidata.org/wiki/Q2096,https://www.wikipedia.org/wiki/Edmonton,https://www.wikidata.org/wiki/Q16
+984,2019,Economic Sciences,Harvard University,https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+890,2013,Chemistry,Stanford University School of Medicine,https://www.wikidata.org/wiki/Q173813,"https://www.wikipedia.org/wiki/Stanford,_California",https://www.wikidata.org/wiki/Q30
+939,2017,Physiology or Medicine,Brandeis University,https://www.wikidata.org/wiki/Q49190,"https://www.wikipedia.org/wiki/Waltham,_Massachusetts",https://www.wikidata.org/wiki/Q30
+432,1985,Physiology or Medicine,University of Texas Southwestern Medical Center at Dallas,https://www.wikidata.org/wiki/Q16557,https://www.wikipedia.org/wiki/Dallas,https://www.wikidata.org/wiki/Q30
+279,1993,Chemistry,University of British Columbia,https://www.wikidata.org/wiki/Q24639,https://www.wikipedia.org/wiki/Vancouver,https://www.wikidata.org/wiki/Q16
+940,2017,Physiology or Medicine,Rockefeller University,https://www.wikidata.org/wiki/Q60,https://www.wikipedia.org/wiki/New_York_City,https://www.wikidata.org/wiki/Q30
+974,2019,Physics,University of Geneva,https://www.wikidata.org/wiki/Q71,https://www.wikipedia.org/wiki/Geneva,https://www.wikidata.org/wiki/Q39
+688,1976,Economic Sciences,University of Chicago,https://www.wikidata.org/wiki/Q1297,https://www.wikipedia.org/wiki/Chicago,https://www.wikidata.org/wiki/Q30
+90,1969,Physics,California Institute of Technology (Caltech),https://www.wikidata.org/wiki/Q485176,"https://www.wikipedia.org/wiki/Pasadena,_California",https://www.wikidata.org/wiki/Q30
+718,1997,Economic Sciences,Long Term Capital Management,https://www.wikidata.org/wiki/Q49202,"https://www.wikipedia.org/wiki/Greenwich,_Connecticut",https://www.wikidata.org/wiki/Q30
+497,1931,Peace,Columbia University,https://www.wikidata.org/wiki/Q60,https://www.wikipedia.org/wiki/New_York_City,https://www.wikidata.org/wiki/Q30
+118,1981,Physics,Harvard University,https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+82,1964,Physics,P.N. Lebedev Physical Institute,https://www.wikidata.org/wiki/Q649,https://www.wikipedia.org/wiki/Moscow,https://www.wikidata.org/wiki/Q159
+27,1922,Physics,Copenhagen University,https://www.wikidata.org/wiki/Q1748,https://www.wikipedia.org/wiki/Copenhagen,https://www.wikidata.org/wiki/Q35
+429,1984,Physiology or Medicine,Basel Institute for Immunology,https://www.wikidata.org/wiki/Q78,https://www.wikipedia.org/wiki/Basel,https://www.wikidata.org/wiki/Q39
+295,1903,Physiology or Medicine,Finsen Medical Light Institute,https://www.wikidata.org/wiki/Q1748,https://www.wikipedia.org/wiki/Copenhagen,https://www.wikidata.org/wiki/Q35
+402,1973,Physiology or Medicine,University of Oxford,https://www.wikidata.org/wiki/Q34217,https://www.wikipedia.org/wiki/Oxford,https://www.wikidata.org/wiki/Q145
+220,1956,Chemistry,Institute for Chemical Physics of the Academy of Sciences of the USSR,https://www.wikidata.org/wiki/Q649,https://www.wikipedia.org/wiki/Moscow,https://www.wikidata.org/wiki/Q159
+220,1956,Chemistry,Lomonosov Moscow State University,https://www.wikidata.org/wiki/Q649,https://www.wikipedia.org/wiki/Moscow,https://www.wikidata.org/wiki/Q159
+135,1989,Physics,Harvard University,https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+196,1937,Chemistry,Birmingham University,https://www.wikidata.org/wiki/Q2256,https://www.wikipedia.org/wiki/Birmingham,https://www.wikidata.org/wiki/Q145
+238,1969,Chemistry,University of Oslo,https://www.wikidata.org/wiki/Q585,https://www.wikipedia.org/wiki/Oslo,https://www.wikidata.org/wiki/Q20
+847,2009,Economic Sciences,University of California,https://www.wikidata.org/wiki/Q484678,"https://www.wikipedia.org/wiki/Berkeley,_California",https://www.wikidata.org/wiki/Q30
+935,2016,Economic Sciences,Harvard University,https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+813,2007,Physiology or Medicine,University of North Carolina,https://www.wikidata.org/wiki/Q671812,"https://www.wikipedia.org/wiki/Chapel_Hill,_North_Carolina",https://www.wikidata.org/wiki/Q30
+829,2008,Chemistry,Marine Biological Laboratory (MBL),https://www.wikidata.org/wiki/Q747172,"https://www.wikipedia.org/wiki/Woods_Hole,_Massachusetts",https://www.wikidata.org/wiki/Q30
+829,2008,Chemistry,Boston University Medical School,https://www.wikidata.org/wiki/Q771,https://www.wikipedia.org/wiki/Massachusetts,https://www.wikidata.org/wiki/Q30
+210,1950,Chemistry,Kiel University,https://www.wikidata.org/wiki/Q1707,https://www.wikipedia.org/wiki/Kiel,https://www.wikidata.org/wiki/Q183
+202,1944,Chemistry,Kaiser-Wilhelm-Institut (now Max-Planck Institut) für Chemie,https://www.wikidata.org/wiki/Q700541,https://www.wikipedia.org/wiki/Dahlem_(Berlin),https://www.wikidata.org/wiki/Q183
+331,1936,Physiology or Medicine,Graz University,https://www.wikidata.org/wiki/Q13298,https://www.wikipedia.org/wiki/Graz,https://www.wikidata.org/wiki/Q40
+312,1922,Physiology or Medicine,Kiel University,https://www.wikidata.org/wiki/Q1707,https://www.wikipedia.org/wiki/Kiel,https://www.wikidata.org/wiki/Q183
+48,1943,Physics,Carnegie Institute of Technology,https://www.wikidata.org/wiki/Q1342,https://www.wikipedia.org/wiki/Pittsburgh,https://www.wikidata.org/wiki/Q30
+169,1910,Chemistry,Goettingen University,https://www.wikidata.org/wiki/Q3033,https://www.wikipedia.org/wiki/G%C3%B6ttingen,https://www.wikidata.org/wiki/Q183
+322,1931,Physiology or Medicine,Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Biologie,https://www.wikidata.org/wiki/Q700541,https://www.wikipedia.org/wiki/Dahlem_(Berlin),https://www.wikidata.org/wiki/Q183
+73,1959,Physics,University of California,https://www.wikidata.org/wiki/Q484678,"https://www.wikipedia.org/wiki/Berkeley,_California",https://www.wikidata.org/wiki/Q30
+35,1928,Physics,London University,https://www.wikidata.org/wiki/Q84,https://www.wikipedia.org/wiki/London,https://www.wikidata.org/wiki/Q145
+53,1948,Physics,Victoria University,https://www.wikidata.org/wiki/Q18125,https://www.wikipedia.org/wiki/Manchester,https://www.wikidata.org/wiki/Q145
+679,1970,Economic Sciences,Massachusetts Institute of Technology (MIT),https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+40,1933,Physics,University of Cambridge,https://www.wikidata.org/wiki/Q350,https://www.wikipedia.org/wiki/Cambridge,https://www.wikidata.org/wiki/Q145
+254,1980,Chemistry,Stanford University,https://www.wikidata.org/wiki/Q173813,"https://www.wikipedia.org/wiki/Stanford,_California",https://www.wikidata.org/wiki/Q30
+764,2003,Physiology or Medicine,University of Illinois,https://www.wikidata.org/wiki/Q462184,"https://www.wikipedia.org/wiki/Urbana,_Illinois",https://www.wikidata.org/wiki/Q30
+287,1997,Chemistry,University of California,https://www.wikidata.org/wiki/Q65,https://www.wikipedia.org/wiki/Los_Angeles,https://www.wikidata.org/wiki/Q30
+302,1908,Physiology or Medicine,Goettingen University,https://www.wikidata.org/wiki/Q3033,https://www.wikipedia.org/wiki/G%C3%B6ttingen,https://www.wikidata.org/wiki/Q183
+302,1908,Physiology or Medicine,Königliches Institut für experimentelle Therapie (Royal Institute for Experimental Therapy),https://www.wikidata.org/wiki/Q1794,https://www.wikipedia.org/wiki/Frankfurt,https://www.wikidata.org/wiki/Q183
+723,2000,Physiology or Medicine,Rockefeller University,https://www.wikidata.org/wiki/Q60,https://www.wikipedia.org/wiki/New_York_City,https://www.wikidata.org/wiki/Q30
+281,1995,Chemistry,Max-Planck-Institut für Chemie,https://www.wikidata.org/wiki/Q1720,https://www.wikipedia.org/wiki/Mainz,https://www.wikidata.org/wiki/Q183
+246,1974,Chemistry,Stanford University,https://www.wikidata.org/wiki/Q173813,"https://www.wikipedia.org/wiki/Stanford,_California",https://www.wikidata.org/wiki/Q30
+197,1937,Chemistry,University of Zurich,https://www.wikidata.org/wiki/Q72,https://www.wikipedia.org/wiki/Z%C3%BCrich,https://www.wikidata.org/wiki/Q39
+834,2008,Economic Sciences,Princeton University,https://www.wikidata.org/wiki/Q138518,"https://www.wikipedia.org/wiki/Princeton,_New_Jersey",https://www.wikidata.org/wiki/Q30
+969,2018,Economic Sciences,NYU Stern School of Business,https://www.wikidata.org/wiki/Q60,https://www.wikipedia.org/wiki/New_York_City,https://www.wikidata.org/wiki/Q30
+922,2015,Chemistry,Howard Hughes Medical Institute,https://www.wikidata.org/wiki/Q49229,"https://www.wikipedia.org/wiki/Durham,_North_Carolina",https://www.wikidata.org/wiki/Q30
+922,2015,Chemistry,Duke University School of Medicine,https://www.wikidata.org/wiki/Q49229,"https://www.wikipedia.org/wiki/Durham,_North_Carolina",https://www.wikidata.org/wiki/Q30
+346,1948,Physiology or Medicine,Laboratorium der Farben-Fabriken J.R. Geigy A.G. (Laboratory of the J.R. Geigy Dye-Factory Co.),https://www.wikidata.org/wiki/Q78,https://www.wikipedia.org/wiki/Basel,https://www.wikidata.org/wiki/Q39
+995,2020,Economic Sciences,Stanford University,https://www.wikidata.org/wiki/Q173813,"https://www.wikipedia.org/wiki/Stanford,_California",https://www.wikidata.org/wiki/Q30
+173,1912,Chemistry,Toulouse University,https://www.wikidata.org/wiki/Q7880,https://www.wikipedia.org/wiki/Toulouse,https://www.wikidata.org/wiki/Q142
+70,1958,Physics,P.N. Lebedev Physical Institute,https://www.wikidata.org/wiki/Q649,https://www.wikipedia.org/wiki/Moscow,https://www.wikidata.org/wiki/Q159
+51,1946,Physics,Harvard University,https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+856,2010,Economic Sciences,Massachusetts Institute of Technology (MIT),https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+769,2003,Chemistry,Johns Hopkins University School of Medicine,https://www.wikidata.org/wiki/Q5092,https://www.wikipedia.org/wiki/Baltimore,https://www.wikidata.org/wiki/Q30
+455,1996,Physiology or Medicine,St. Jude Children's Research Hospital,https://www.wikidata.org/wiki/Q16563,"https://www.wikipedia.org/wiki/Memphis,_Tennessee",https://www.wikidata.org/wiki/Q30
+195,1936,Chemistry,Berlin University,https://www.wikidata.org/wiki/Q64,https://www.wikipedia.org/wiki/Berlin,https://www.wikidata.org/wiki/Q183
+195,1936,Chemistry,Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Physik,https://www.wikidata.org/wiki/Q64,https://www.wikipedia.org/wiki/Berlin,https://www.wikidata.org/wiki/Q183
+815,2007,Physics,Forschungszentrum J&uuml;lich,https://www.wikidata.org/wiki/Q16045,https://www.wikipedia.org/wiki/J%C3%BClich,https://www.wikidata.org/wiki/Q183
+888,2013,Physics,University of Edinburgh,https://www.wikidata.org/wiki/Q23436,https://www.wikipedia.org/wiki/Edinburgh,https://www.wikidata.org/wiki/Q145
+370,1960,Physiology or Medicine,University College,https://www.wikidata.org/wiki/Q84,https://www.wikipedia.org/wiki/London,https://www.wikidata.org/wiki/Q145
+251,1978,Chemistry,Glynn Research Laboratories,https://www.wikidata.org/wiki/Q889888,https://www.wikipedia.org/wiki/Bodmin,https://www.wikidata.org/wiki/Q145
+383,1966,Physiology or Medicine,Rockefeller University,https://www.wikidata.org/wiki/Q60,https://www.wikipedia.org/wiki/New_York_City,https://www.wikidata.org/wiki/Q30
+351,1950,Physiology or Medicine,Mayo Clinic,https://www.wikidata.org/wiki/Q486479,"https://www.wikipedia.org/wiki/Rochester,_Minnesota",https://www.wikidata.org/wiki/Q30
+107,1977,Physics,Bell Telephone Laboratories,https://www.wikidata.org/wiki/Q984466,"https://www.wikipedia.org/wiki/Murray_Hill,_New_Jersey",https://www.wikidata.org/wiki/Q30
+9,1905,Physics,Kiel University,https://www.wikidata.org/wiki/Q1707,https://www.wikipedia.org/wiki/Kiel,https://www.wikidata.org/wiki/Q183
+449,1993,Physiology or Medicine,"Massachusetts Institute of Technology (MIT), Center for Cancer Research",https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+5,1903,Physics,École municipale de physique et de chimie industrielles (Municipal School of Industrial Physics and Chemistry),https://www.wikidata.org/wiki/Q90,https://www.wikipedia.org/wiki/Paris,https://www.wikidata.org/wiki/Q142
+141,1991,Physics,Collège de France,https://www.wikidata.org/wiki/Q90,https://www.wikipedia.org/wiki/Paris,https://www.wikidata.org/wiki/Q142
+3,1902,Physics,Amsterdam University,https://www.wikidata.org/wiki/Q727,https://www.wikipedia.org/wiki/Amsterdam,https://www.wikidata.org/wiki/Q55
+64,1955,Physics,Columbia University,https://www.wikidata.org/wiki/Q60,https://www.wikipedia.org/wiki/New_York_City,https://www.wikidata.org/wiki/Q30
+110,1978,Physics,Academy of Sciences,https://www.wikidata.org/wiki/Q649,https://www.wikipedia.org/wiki/Moscow,https://www.wikidata.org/wiki/Q159
+677,1969,Economic Sciences,University of Oslo,https://www.wikidata.org/wiki/Q585,https://www.wikipedia.org/wiki/Oslo,https://www.wikidata.org/wiki/Q20
+385,1967,Physiology or Medicine,Karolinska Institutet,https://www.wikidata.org/wiki/Q1754,https://www.wikipedia.org/wiki/Stockholm,https://www.wikidata.org/wiki/Q34
+941,2017,Physics,Massachusetts Institute of Technology (MIT),https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+511,1950,Peace,Harvard University,https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+863,2011,Physiology or Medicine,Rockefeller University,https://www.wikidata.org/wiki/Q60,https://www.wikipedia.org/wiki/New_York_City,https://www.wikidata.org/wiki/Q30
+885,2013,Physiology or Medicine,University of California,https://www.wikidata.org/wiki/Q484678,"https://www.wikipedia.org/wiki/Berkeley,_California",https://www.wikidata.org/wiki/Q30
+753,2002,Physics,University of Pennsylvania,https://www.wikidata.org/wiki/Q1345,https://www.wikipedia.org/wiki/Philadelphia,https://www.wikidata.org/wiki/Q30
+989,2020,Physics,Max Planck Institute for Extraterrestrial Physics,https://www.wikidata.org/wiki/Q264620,https://www.wikipedia.org/wiki/Garching_bei_München,https://www.wikidata.org/wiki/Q183
+989,2020,Physics,University of California,https://www.wikidata.org/wiki/Q484678,"https://www.wikipedia.org/wiki/Berkeley,_California",https://www.wikidata.org/wiki/Q30
+713,1994,Economic Sciences,Rheinische Friedrich-Wilhelms-Universität,https://www.wikidata.org/wiki/Q586,https://www.wikipedia.org/wiki/Bonn,https://www.wikidata.org/wiki/Q183
+407,1975,Physiology or Medicine,Imperial Cancer Research Fund Laboratory,https://www.wikidata.org/wiki/Q84,https://www.wikipedia.org/wiki/London,https://www.wikidata.org/wiki/Q145
+755,2002,Physics,Associated Universities Inc.,https://www.wikidata.org/wiki/Q61,"https://www.wikipedia.org/wiki/Washington,_D.C.",https://www.wikidata.org/wiki/Q30
+774,2004,Physiology or Medicine,Columbia University,https://www.wikidata.org/wiki/Q60,https://www.wikipedia.org/wiki/New_York_City,https://www.wikidata.org/wiki/Q30
+286,1996,Chemistry,Rice University,https://www.wikidata.org/wiki/Q16555,https://www.wikipedia.org/wiki/Houston,https://www.wikidata.org/wiki/Q30
+140,1990,Physics,Stanford University,https://www.wikidata.org/wiki/Q173813,"https://www.wikipedia.org/wiki/Stanford,_California",https://www.wikidata.org/wiki/Q30
+949,2017,Economic Sciences,University of Chicago,https://www.wikidata.org/wiki/Q1297,https://www.wikipedia.org/wiki/Chicago,https://www.wikidata.org/wiki/Q30
+946,2017,Chemistry,MRC Laboratory of Molecular Biology,https://www.wikidata.org/wiki/Q350,https://www.wikipedia.org/wiki/Cambridge,https://www.wikidata.org/wiki/Q145
+448,1993,Physiology or Medicine,New England Biolabs,https://www.wikidata.org/wiki/Q54138,"https://www.wikipedia.org/wiki/Beverly,_Massachusetts",https://www.wikidata.org/wiki/Q30
+198,1938,Chemistry,Kaiser-Wilhelm-Institut (now Max-Planck Institut) für Medizinische Forschung,https://www.wikidata.org/wiki/Q2966,https://www.wikipedia.org/wiki/Heidelberg,https://www.wikidata.org/wiki/Q183
+198,1938,Chemistry,University of Heidelberg,https://www.wikidata.org/wiki/Q2966,https://www.wikipedia.org/wiki/Heidelberg,https://www.wikidata.org/wiki/Q183
+215,1952,Chemistry,Rowett Research Institute,https://www.wikidata.org/wiki/Q4983491,https://www.wikipedia.org/wiki/Bucksburn,https://www.wikidata.org/wiki/Q145
+86,1965,Physics,California Institute of Technology (Caltech),https://www.wikidata.org/wiki/Q485176,"https://www.wikipedia.org/wiki/Pasadena,_California",https://www.wikidata.org/wiki/Q30
+276,1991,Chemistry,Eidgenössische Technische Hochschule (Swiss Federal Institute of Technology),https://www.wikidata.org/wiki/Q72,https://www.wikipedia.org/wiki/Z%C3%BCrich,https://www.wikidata.org/wiki/Q39
+796,2005,Chemistry,Massachusetts Institute of Technology (MIT),https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+698,1984,Economic Sciences,University of Cambridge,https://www.wikidata.org/wiki/Q350,https://www.wikipedia.org/wiki/Cambridge,https://www.wikidata.org/wiki/Q145
+176,1915,Chemistry,Munich University,https://www.wikidata.org/wiki/Q1726,https://www.wikipedia.org/wiki/Munich,https://www.wikidata.org/wiki/Q183
+182,1925,Chemistry,Goettingen University,https://www.wikidata.org/wiki/Q3033,https://www.wikipedia.org/wiki/G%C3%B6ttingen,https://www.wikidata.org/wiki/Q183
+435,1986,Physiology or Medicine,Institute of Cell Biology of the C.N.R.,https://www.wikidata.org/wiki/Q220,https://www.wikipedia.org/wiki/Rome,https://www.wikidata.org/wiki/Q38
+258,1981,Chemistry,Cornell University,https://www.wikidata.org/wiki/Q217346,"https://www.wikipedia.org/wiki/Ithaca,_New_York",https://www.wikidata.org/wiki/Q30
+28,1923,Physics,California Institute of Technology (Caltech),https://www.wikidata.org/wiki/Q485176,"https://www.wikipedia.org/wiki/Pasadena,_California",https://www.wikidata.org/wiki/Q30
+155,1998,Physics,Stanford University,https://www.wikidata.org/wiki/Q173813,"https://www.wikipedia.org/wiki/Stanford,_California",https://www.wikidata.org/wiki/Q30
+996,2020,Economic Sciences,Stanford University,https://www.wikidata.org/wiki/Q173813,"https://www.wikipedia.org/wiki/Stanford,_California",https://www.wikidata.org/wiki/Q30
+231,1965,Chemistry,Harvard University,https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+308,1914,Physiology or Medicine,Vienna University,https://www.wikidata.org/wiki/Q1741,https://www.wikipedia.org/wiki/Vienna,https://www.wikidata.org/wiki/Q40
+717,1997,Economic Sciences,Harvard University,https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+151,1996,Physics,Cornell University,https://www.wikidata.org/wiki/Q217346,"https://www.wikipedia.org/wiki/Ithaca,_New_York",https://www.wikidata.org/wiki/Q30
+714,1995,Economic Sciences,University of Chicago,https://www.wikidata.org/wiki/Q1297,https://www.wikipedia.org/wiki/Chicago,https://www.wikidata.org/wiki/Q30
+284,1996,Chemistry,Rice University,https://www.wikidata.org/wiki/Q16555,https://www.wikipedia.org/wiki/Houston,https://www.wikidata.org/wiki/Q30
+771,2003,Economic Sciences,New York University,https://www.wikidata.org/wiki/Q60,https://www.wikipedia.org/wiki/New_York_City,https://www.wikidata.org/wiki/Q30
+458,1998,Physiology or Medicine,SUNY Health Science Center,https://www.wikidata.org/wiki/Q18419,https://www.wikipedia.org/wiki/Brooklyn,https://www.wikidata.org/wiki/Q30
+848,2010,Physiology or Medicine,University of Cambridge,https://www.wikidata.org/wiki/Q350,https://www.wikipedia.org/wiki/Cambridge,https://www.wikidata.org/wiki/Q145
+795,2005,Chemistry,California Institute of Technology (Caltech),https://www.wikidata.org/wiki/Q485176,"https://www.wikipedia.org/wiki/Pasadena,_California",https://www.wikidata.org/wiki/Q30
+75,1961,Physics,Stanford University,https://www.wikidata.org/wiki/Q173813,"https://www.wikipedia.org/wiki/Stanford,_California",https://www.wikidata.org/wiki/Q30
+271,1988,Chemistry,Max-Planck-Institut für Biochemie,https://www.wikidata.org/wiki/Q259230,https://www.wikipedia.org/wiki/Martinsried,https://www.wikidata.org/wiki/Q183
+799,2005,Economic Sciences,"University of Jerusalem, Center for RationalityHebrew",https://www.wikidata.org/wiki/Q1218,https://www.wikipedia.org/wiki/Jerusalem,https://www.wikidata.org/wiki/Q801
+878,2012,Chemistry,Duke University Medical Center,https://www.wikidata.org/wiki/Q49229,"https://www.wikipedia.org/wiki/Durham,_North_Carolina",https://www.wikidata.org/wiki/Q30
+896,2013,Economic Sciences,Yale University,https://www.wikidata.org/wiki/Q49145,"https://www.wikipedia.org/wiki/New_Haven,_Connecticut",https://www.wikidata.org/wiki/Q30
+297,1905,Physiology or Medicine,Institute for Infectious Diseases,https://www.wikidata.org/wiki/Q64,https://www.wikipedia.org/wiki/Berlin,https://www.wikidata.org/wiki/Q183
+701,1987,Economic Sciences,Massachusetts Institute of Technology (MIT),https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+720,1999,Economic Sciences,Columbia University,https://www.wikidata.org/wiki/Q60,https://www.wikipedia.org/wiki/New_York_City,https://www.wikidata.org/wiki/Q30
+232,1966,Chemistry,University of Chicago,https://www.wikidata.org/wiki/Q1297,https://www.wikipedia.org/wiki/Chicago,https://www.wikidata.org/wiki/Q30
+96,1972,Physics,University of Pennsylvania,https://www.wikidata.org/wiki/Q1345,https://www.wikipedia.org/wiki/Philadelphia,https://www.wikidata.org/wiki/Q30
+709,1993,Economic Sciences,University of Chicago,https://www.wikidata.org/wiki/Q1297,https://www.wikipedia.org/wiki/Chicago,https://www.wikidata.org/wiki/Q30
+388,1968,Physiology or Medicine,Cornell University,https://www.wikidata.org/wiki/Q217346,"https://www.wikipedia.org/wiki/Ithaca,_New_York",https://www.wikidata.org/wiki/Q30
+112,1978,Physics,Bell Laboratories,https://www.wikidata.org/wiki/Q1474335,"https://www.wikipedia.org/wiki/Holmdel_Township,_New_Jersey",https://www.wikidata.org/wiki/Q30
+770,2003,Chemistry,Rockefeller University,https://www.wikidata.org/wiki/Q60,https://www.wikipedia.org/wiki/New_York_City,https://www.wikidata.org/wiki/Q30
+399,1972,Physiology or Medicine,University of Oxford,https://www.wikidata.org/wiki/Q34217,https://www.wikipedia.org/wiki/Oxford,https://www.wikidata.org/wiki/Q145
+822,2007,Economic Sciences,University of Chicago,https://www.wikidata.org/wiki/Q1297,https://www.wikipedia.org/wiki/Chicago,https://www.wikidata.org/wiki/Q30
+806,2006,Chemistry,Stanford University,https://www.wikidata.org/wiki/Q173813,"https://www.wikipedia.org/wiki/Stanford,_California",https://www.wikidata.org/wiki/Q30
+411,1977,Physiology or Medicine,The Salk Institute,https://www.wikidata.org/wiki/Q16552,https://www.wikipedia.org/wiki/San_Diego,https://www.wikidata.org/wiki/Q30
+988,2020,Physics,University of Oxford,https://www.wikidata.org/wiki/Q34217,https://www.wikipedia.org/wiki/Oxford,https://www.wikidata.org/wiki/Q145
+422,1981,Physiology or Medicine,California Institute of Technology (Caltech),https://www.wikidata.org/wiki/Q485176,"https://www.wikipedia.org/wiki/Pasadena,_California",https://www.wikidata.org/wiki/Q30
+831,2008,Chemistry,University of California,https://www.wikidata.org/wiki/Q16552,https://www.wikipedia.org/wiki/San_Diego,https://www.wikidata.org/wiki/Q30
+456,1996,Physiology or Medicine,"University of Zurich, Institute of Experimental Immunology",https://www.wikidata.org/wiki/Q72,https://www.wikipedia.org/wiki/Z%C3%BCrich,https://www.wikidata.org/wiki/Q39
+234,1967,Chemistry,Institute of Physical Chemistry,https://www.wikidata.org/wiki/Q350,https://www.wikipedia.org/wiki/Cambridge,https://www.wikidata.org/wiki/Q145
+707,1991,Economic Sciences,University of Chicago,https://www.wikidata.org/wiki/Q1297,https://www.wikipedia.org/wiki/Chicago,https://www.wikidata.org/wiki/Q30
+294,1902,Physiology or Medicine,University College,https://www.wikidata.org/wiki/Q24826,https://www.wikipedia.org/wiki/Liverpool,https://www.wikidata.org/wiki/Q145
+413,1977,Physiology or Medicine,Veterans Administration Hospital,https://www.wikidata.org/wiki/Q18426,https://www.wikipedia.org/wiki/The_Bronx,https://www.wikidata.org/wiki/Q30
+791,2005,Physics,Harvard University,https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+76,1961,Physics,Technical University,https://www.wikidata.org/wiki/Q1726,https://www.wikipedia.org/wiki/Munich,https://www.wikidata.org/wiki/Q183
+76,1961,Physics,California Institute of Technology (Caltech),https://www.wikidata.org/wiki/Q485176,"https://www.wikipedia.org/wiki/Pasadena,_California",https://www.wikidata.org/wiki/Q30
+277,1992,Chemistry,California Institute of Technology (Caltech),https://www.wikidata.org/wiki/Q485176,"https://www.wikipedia.org/wiki/Pasadena,_California",https://www.wikidata.org/wiki/Q30
+143,1993,Physics,Princeton University,https://www.wikidata.org/wiki/Q138518,"https://www.wikipedia.org/wiki/Princeton,_New_Jersey",https://www.wikidata.org/wiki/Q30
+742,2001,Chemistry,Nagoya University,https://www.wikidata.org/wiki/Q11751,https://www.wikipedia.org/wiki/Nagoya,https://www.wikidata.org/wiki/Q17
+393,1969,Physiology or Medicine,Massachusetts Institute of Technology (MIT),https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+106,1976,Physics,Massachusetts Institute of Technology (MIT),https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+299,1906,Physiology or Medicine,Madrid University,https://www.wikidata.org/wiki/Q2807,https://www.wikipedia.org/wiki/Madrid,https://www.wikidata.org/wiki/Q29
+917,2015,Physiology or Medicine,Kitasato University,https://www.wikidata.org/wiki/Q1490,https://www.wikipedia.org/wiki/Tokyo,https://www.wikidata.org/wiki/Q17
+864,2011,Physics,Lawrence Berkeley National Laboratory,https://www.wikidata.org/wiki/Q484678,"https://www.wikipedia.org/wiki/Berkeley,_California",https://www.wikidata.org/wiki/Q30
+864,2011,Physics,University of California,https://www.wikidata.org/wiki/Q484678,"https://www.wikipedia.org/wiki/Berkeley,_California",https://www.wikidata.org/wiki/Q30
+353,1952,Physiology or Medicine,Rutgers University,https://www.wikidata.org/wiki/Q138338,"https://www.wikipedia.org/wiki/New_Brunswick,_New_Jersey",https://www.wikidata.org/wiki/Q30
+876,2012,Physics,Collège de France,https://www.wikidata.org/wiki/Q90,https://www.wikipedia.org/wiki/Paris,https://www.wikidata.org/wiki/Q142
+876,2012,Physics,École Normale Supérieure,https://www.wikidata.org/wiki/Q90,https://www.wikipedia.org/wiki/Paris,https://www.wikidata.org/wiki/Q142
+367,1959,Physiology or Medicine,"New York University, College of Medicine",https://www.wikidata.org/wiki/Q60,https://www.wikipedia.org/wiki/New_York_City,https://www.wikidata.org/wiki/Q30
+113,1979,Physics,"Harvard University, Lyman Laboratory",https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+875,2012,Physiology or Medicine,Kyoto University,https://www.wikidata.org/wiki/Q34600,https://www.wikipedia.org/wiki/Kyoto,https://www.wikidata.org/wiki/Q17
+875,2012,Physiology or Medicine,Gladstone Institutes,https://www.wikidata.org/wiki/Q62,https://www.wikipedia.org/wiki/San_Francisco,https://www.wikidata.org/wiki/Q30
+908,2014,Physics,University of California,https://www.wikidata.org/wiki/Q159288,"https://www.wikipedia.org/wiki/Santa_Barbara,_California",https://www.wikidata.org/wiki/Q30
+273,1989,Chemistry,Yale University,https://www.wikidata.org/wiki/Q49145,"https://www.wikipedia.org/wiki/New_Haven,_Connecticut",https://www.wikidata.org/wiki/Q30
+680,1971,Economic Sciences,Harvard University,https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+125,1984,Physics,CERN,https://www.wikidata.org/wiki/Q71,https://www.wikipedia.org/wiki/Geneva,https://www.wikidata.org/wiki/Q39
+84,1965,Physics,Tokyo University of Education,https://www.wikidata.org/wiki/Q1490,https://www.wikipedia.org/wiki/Tokyo,https://www.wikidata.org/wiki/Q17
+339,1945,Physiology or Medicine,London University,https://www.wikidata.org/wiki/Q84,https://www.wikipedia.org/wiki/London,https://www.wikidata.org/wiki/Q145
+693,1979,Economic Sciences,Princeton University,https://www.wikidata.org/wiki/Q138518,"https://www.wikipedia.org/wiki/Princeton,_New_Jersey",https://www.wikidata.org/wiki/Q30
+394,1970,Physiology or Medicine,University College,https://www.wikidata.org/wiki/Q84,https://www.wikipedia.org/wiki/London,https://www.wikidata.org/wiki/Q145
+37,1930,Physics,Calcutta University,https://www.wikidata.org/wiki/Q1348,https://www.wikipedia.org/wiki/Kolkata,https://www.wikidata.org/wiki/Q668
+323,1932,Physiology or Medicine,University of Oxford,https://www.wikidata.org/wiki/Q34217,https://www.wikipedia.org/wiki/Oxford,https://www.wikidata.org/wiki/Q145
+219,1956,Chemistry,University of Oxford,https://www.wikidata.org/wiki/Q34217,https://www.wikipedia.org/wiki/Oxford,https://www.wikidata.org/wiki/Q145
+369,1960,Physiology or Medicine,Walter and Eliza Hall Institute for Medical Research,https://www.wikidata.org/wiki/Q3141,https://www.wikipedia.org/wiki/Melbourne,https://www.wikidata.org/wiki/Q408
+320,1929,Physiology or Medicine,University of Cambridge,https://www.wikidata.org/wiki/Q350,https://www.wikipedia.org/wiki/Cambridge,https://www.wikidata.org/wiki/Q145
+965,2018,Chemistry,MRC Laboratory of Molecular Biology,https://www.wikidata.org/wiki/Q350,https://www.wikipedia.org/wiki/Cambridge,https://www.wikidata.org/wiki/Q145
+285,1996,Chemistry,University of Sussex,https://www.wikidata.org/wiki/Q131491,https://www.wikipedia.org/wiki/Brighton,https://www.wikidata.org/wiki/Q145
+330,1936,Physiology or Medicine,National Institute for Medical Research,https://www.wikidata.org/wiki/Q84,https://www.wikipedia.org/wiki/London,https://www.wikidata.org/wiki/Q145
+341,1945,Physiology or Medicine,University of Oxford,https://www.wikidata.org/wiki/Q34217,https://www.wikipedia.org/wiki/Oxford,https://www.wikidata.org/wiki/Q145
+932,2016,Chemistry,Northwestern University,https://www.wikidata.org/wiki/Q462799,"https://www.wikipedia.org/wiki/Evanston,_Illinois",https://www.wikidata.org/wiki/Q30
+437,1988,Physiology or Medicine,"London University, King's College Hospital Medical School",https://www.wikidata.org/wiki/Q84,https://www.wikipedia.org/wiki/London,https://www.wikidata.org/wiki/Q145
+874,2012,Physiology or Medicine,Gurdon Institute,https://www.wikidata.org/wiki/Q350,https://www.wikipedia.org/wiki/Cambridge,https://www.wikidata.org/wiki/Q145
+375,1963,Physiology or Medicine,Australian National University,https://www.wikidata.org/wiki/Q3114,https://www.wikipedia.org/wiki/Canberra,https://www.wikidata.org/wiki/Q408
+812,2007,Physiology or Medicine,Cardiff University,https://www.wikidata.org/wiki/Q10690,https://www.wikipedia.org/wiki/Cardiff,https://www.wikidata.org/wiki/Q145
+108,1977,Physics,University of Cambridge,https://www.wikidata.org/wiki/Q350,https://www.wikipedia.org/wiki/Cambridge,https://www.wikidata.org/wiki/Q145
+737,2001,Physiology or Medicine,Imperial Cancer Research Fund,https://www.wikidata.org/wiki/Q84,https://www.wikipedia.org/wiki/London,https://www.wikidata.org/wiki/Q145
+971,2019,Physiology or Medicine,University of Oxford,https://www.wikidata.org/wiki/Q34217,https://www.wikipedia.org/wiki/Oxford,https://www.wikidata.org/wiki/Q145
+971,2019,Physiology or Medicine,Francis Crick Institute,https://www.wikidata.org/wiki/Q84,https://www.wikipedia.org/wiki/London,https://www.wikidata.org/wiki/Q145
+765,2003,Physiology or Medicine,"University of Nottingham, School of Physics and Astronomy",https://www.wikidata.org/wiki/Q41262,https://www.wikipedia.org/wiki/Nottingham,https://www.wikidata.org/wiki/Q145
+207,1947,Chemistry,University of Oxford,https://www.wikidata.org/wiki/Q34217,https://www.wikipedia.org/wiki/Oxford,https://www.wikidata.org/wiki/Q145
+163,1904,Chemistry,University College,https://www.wikidata.org/wiki/Q84,https://www.wikipedia.org/wiki/London,https://www.wikidata.org/wiki/Q145
+242,1972,Chemistry,Rockefeller University,https://www.wikidata.org/wiki/Q60,https://www.wikipedia.org/wiki/New_York_City,https://www.wikidata.org/wiki/Q30
+457,1997,Physiology or Medicine,University of California School of Medicine,https://www.wikidata.org/wiki/Q62,https://www.wikipedia.org/wiki/San_Francisco,https://www.wikidata.org/wiki/Q30
+434,1986,Physiology or Medicine,Vanderbilt University School of Medicine,https://www.wikidata.org/wiki/Q23197,"https://www.wikipedia.org/wiki/Nashville,_Tennessee",https://www.wikidata.org/wiki/Q30
+910,2014,Chemistry,Max Planck Institute for Biophysical Chemistry,https://www.wikidata.org/wiki/Q3033,https://www.wikipedia.org/wiki/G%C3%B6ttingen,https://www.wikidata.org/wiki/Q183
+910,2014,Chemistry,German Cancer Research Center,https://www.wikidata.org/wiki/Q2966,https://www.wikipedia.org/wiki/Heidelberg,https://www.wikidata.org/wiki/Q183
+152,1997,Physics,Stanford University,https://www.wikidata.org/wiki/Q173813,"https://www.wikipedia.org/wiki/Stanford,_California",https://www.wikidata.org/wiki/Q30
+115,1979,Physics,Harvard University,https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+122,1983,Physics,University of Chicago,https://www.wikidata.org/wiki/Q1297,https://www.wikipedia.org/wiki/Chicago,https://www.wikidata.org/wiki/Q30
+425,1982,Physiology or Medicine,Karolinska Institutet,https://www.wikidata.org/wiki/Q1754,https://www.wikipedia.org/wiki/Stockholm,https://www.wikidata.org/wiki/Q34
+436,1987,Physiology or Medicine,Massachusetts Institute of Technology (MIT),https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+162,1903,Chemistry,Stockholm University,https://www.wikidata.org/wiki/Q1754,https://www.wikipedia.org/wiki/Stockholm,https://www.wikidata.org/wiki/Q34
+750,2002,Physiology or Medicine,The Molecular Sciences Institute,https://www.wikidata.org/wiki/Q484678,"https://www.wikipedia.org/wiki/Berkeley,_California",https://www.wikidata.org/wiki/Q30
+350,1950,Physiology or Medicine,Basel University,https://www.wikidata.org/wiki/Q78,https://www.wikipedia.org/wiki/Basel,https://www.wikidata.org/wiki/Q39
+919,2015,Physics,University of Tokyo,https://www.wikidata.org/wiki/Q319743,https://www.wikipedia.org/wiki/Kashiwa,https://www.wikidata.org/wiki/Q17
+959,2018,Physiology or Medicine,Kyoto University,https://www.wikidata.org/wiki/Q34600,https://www.wikipedia.org/wiki/Kyoto,https://www.wikidata.org/wiki/Q17
+183,1926,Chemistry,Uppsala University,https://www.wikidata.org/wiki/Q25286,https://www.wikipedia.org/wiki/Uppsala,https://www.wikidata.org/wiki/Q34
+303,1909,Physiology or Medicine,Berne University,https://www.wikidata.org/wiki/Q70,https://www.wikipedia.org/wiki/Bern,https://www.wikidata.org/wiki/Q39
+793,2005,Physics,Max-Planck-Institut für Quantenoptik,https://www.wikidata.org/wiki/Q264620,https://www.wikipedia.org/wiki/Garching_bei_München,https://www.wikidata.org/wiki/Q183
+793,2005,Physics,Ludwig-Maximilians- Universität,https://www.wikidata.org/wiki/Q1726,https://www.wikipedia.org/wiki/Munich,https://www.wikidata.org/wiki/Q183
+175,1914,Chemistry,Harvard University,https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+692,1979,Economic Sciences,University of Chicago,https://www.wikidata.org/wiki/Q1297,https://www.wikipedia.org/wiki/Chicago,https://www.wikidata.org/wiki/Q30
+842,2009,Chemistry,Yale University,https://www.wikidata.org/wiki/Q49145,"https://www.wikipedia.org/wiki/New_Haven,_Connecticut",https://www.wikidata.org/wiki/Q30
+800,2005,Economic Sciences,"University of Maryland, Department of Economics and School of Public Policy",https://www.wikidata.org/wiki/Q668676,"https://www.wikipedia.org/wiki/College_Park,_Maryland",https://www.wikidata.org/wiki/Q30
+886,2013,Physiology or Medicine,Stanford University,https://www.wikidata.org/wiki/Q173813,"https://www.wikipedia.org/wiki/Stanford,_California",https://www.wikidata.org/wiki/Q30
+325,1933,Physiology or Medicine,California Institute of Technology (Caltech),https://www.wikidata.org/wiki/Q485176,"https://www.wikipedia.org/wiki/Pasadena,_California",https://www.wikidata.org/wiki/Q30
+357,1954,Physiology or Medicine,"Research Division of Infectious Diseases, Children's Medical Center",https://www.wikidata.org/wiki/Q100,https://www.wikipedia.org/wiki/Boston,https://www.wikidata.org/wiki/Q30
+872,2011,Economic Sciences,New York University,https://www.wikidata.org/wiki/Q60,https://www.wikipedia.org/wiki/New_York_City,https://www.wikidata.org/wiki/Q30
+274,1989,Chemistry,University of Colorado,https://www.wikidata.org/wiki/Q192517,"https://www.wikipedia.org/wiki/Boulder,_Colorado",https://www.wikidata.org/wiki/Q30
+736,2001,Physiology or Medicine,Imperial Cancer Research Fund,https://www.wikidata.org/wiki/Q84,https://www.wikipedia.org/wiki/London,https://www.wikidata.org/wiki/Q145
+687,1975,Economic Sciences,Yale University,https://www.wikidata.org/wiki/Q49145,"https://www.wikipedia.org/wiki/New_Haven,_Connecticut",https://www.wikidata.org/wiki/Q30
+424,1981,Physiology or Medicine,Harvard Medical School,https://www.wikidata.org/wiki/Q100,https://www.wikipedia.org/wiki/Boston,https://www.wikidata.org/wiki/Q30
+828,2008,Physics,Kyoto Sangyo University,https://www.wikidata.org/wiki/Q34600,https://www.wikipedia.org/wiki/Kyoto,https://www.wikidata.org/wiki/Q17
+828,2008,Physics,"Yukawa Institute for Theoretical Physics (YITP), Kyoto University",https://www.wikidata.org/wiki/Q34600,https://www.wikipedia.org/wiki/Kyoto,https://www.wikidata.org/wiki/Q17
+703,1989,Economic Sciences,University of Oslo,https://www.wikidata.org/wiki/Q585,https://www.wikipedia.org/wiki/Oslo,https://www.wikidata.org/wiki/Q20
+69,1957,Physics,Columbia University,https://www.wikidata.org/wiki/Q60,https://www.wikipedia.org/wiki/New_York_City,https://www.wikidata.org/wiki/Q30
+918,2015,Physiology or Medicine,China Academy of Traditional Chinese Medicine,https://www.wikidata.org/wiki/Q956,https://www.wikipedia.org/wiki/Beijing,https://www.wikidata.org/wiki/Q148
+395,1970,Physiology or Medicine,Karolinska Institutet,https://www.wikidata.org/wiki/Q1754,https://www.wikipedia.org/wiki/Stockholm,https://www.wikidata.org/wiki/Q34
+117,1980,Physics,Princeton University,https://www.wikidata.org/wiki/Q138518,"https://www.wikipedia.org/wiki/Princeton,_New_Jersey",https://www.wikidata.org/wiki/Q30
+841,2009,Chemistry,MRC Laboratory of Molecular Biology,https://www.wikidata.org/wiki/Q350,https://www.wikipedia.org/wiki/Cambridge,https://www.wikidata.org/wiki/Q145
+760,2002,Economic Sciences,George Mason University,https://www.wikidata.org/wiki/Q501785,"https://www.wikipedia.org/wiki/Fairfax,_Virginia",https://www.wikidata.org/wiki/Q30
+42,1936,Physics,Innsbruck University,https://www.wikidata.org/wiki/Q1735,https://www.wikipedia.org/wiki/Innsbruck,https://www.wikidata.org/wiki/Q40
+172,1912,Chemistry,Nancy University,https://www.wikidata.org/wiki/Q40898,"https://www.wikipedia.org/wiki/Nancy,_France",https://www.wikidata.org/wiki/Q142
+218,1955,Chemistry,Cornell University,https://www.wikidata.org/wiki/Q217346,"https://www.wikipedia.org/wiki/Ithaca,_New_York",https://www.wikidata.org/wiki/Q30
+767,2003,Physics,P.N. Lebedev Physical Institute,https://www.wikidata.org/wiki/Q649,https://www.wikipedia.org/wiki/Moscow,https://www.wikidata.org/wiki/Q159
+248,1975,Chemistry,Eidgenössische Technische Hochschule (Swiss Federal Institute of Technology),https://www.wikidata.org/wiki/Q72,https://www.wikipedia.org/wiki/Z%C3%BCrich,https://www.wikidata.org/wiki/Q39
+255,1980,Chemistry,"Harvard University, Biological Laboratories",https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+67,1956,Physics,Bell Telephone Laboratories,https://www.wikidata.org/wiki/Q984466,"https://www.wikipedia.org/wiki/Murray_Hill,_New_Jersey",https://www.wikidata.org/wiki/Q30
+347,1949,Physiology or Medicine,University of Zurich,https://www.wikidata.org/wiki/Q72,https://www.wikipedia.org/wiki/Z%C3%BCrich,https://www.wikidata.org/wiki/Q39
+290,1998,Chemistry,University of California,https://www.wikidata.org/wiki/Q159288,"https://www.wikipedia.org/wiki/Santa_Barbara,_California",https://www.wikidata.org/wiki/Q30
+62,1954,Physics,University of Heidelberg,https://www.wikidata.org/wiki/Q2966,https://www.wikipedia.org/wiki/Heidelberg,https://www.wikidata.org/wiki/Q183
+62,1954,Physics,Max-Planck-Institut für medizinische Forschung,https://www.wikidata.org/wiki/Q2966,https://www.wikipedia.org/wiki/Heidelberg,https://www.wikidata.org/wiki/Q183
+178,1920,Chemistry,Berlin University,https://www.wikidata.org/wiki/Q64,https://www.wikipedia.org/wiki/Berlin,https://www.wikidata.org/wiki/Q183
+683,1973,Economic Sciences,Harvard University,https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+206,1946,Chemistry,Rockefeller Institute for Medical Research,https://www.wikidata.org/wiki/Q138518,"https://www.wikipedia.org/wiki/Princeton,_New_Jersey",https://www.wikidata.org/wiki/Q30
+414,1978,Physiology or Medicine,Biozentrum der Universität,https://www.wikidata.org/wiki/Q78,https://www.wikipedia.org/wiki/Basel,https://www.wikidata.org/wiki/Q39
+361,1956,Physiology or Medicine,Mainz University,https://www.wikidata.org/wiki/Q1720,https://www.wikipedia.org/wiki/Mainz,https://www.wikidata.org/wiki/Q183
+38,1932,Physics,Leipzig University,https://www.wikidata.org/wiki/Q2079,https://www.wikipedia.org/wiki/Leipzig,https://www.wikidata.org/wiki/Q183
+1,1901,Physics,Munich University,https://www.wikidata.org/wiki/Q1726,https://www.wikipedia.org/wiki/Munich,https://www.wikidata.org/wiki/Q183
+168,1909,Chemistry,Leipzig University,https://www.wikidata.org/wiki/Q2079,https://www.wikipedia.org/wiki/Leipzig,https://www.wikidata.org/wiki/Q183
+16,1911,Physics,Würzburg University,https://www.wikidata.org/wiki/Q2999,https://www.wikipedia.org/wiki/W%C3%BCrzburg,https://www.wikidata.org/wiki/Q183
+224,1960,Chemistry,University of California,https://www.wikidata.org/wiki/Q65,https://www.wikipedia.org/wiki/Los_Angeles,https://www.wikidata.org/wiki/Q30
+839,2009,Physics,Bell Laboratories,https://www.wikidata.org/wiki/Q984466,"https://www.wikipedia.org/wiki/Murray_Hill,_New_Jersey",https://www.wikidata.org/wiki/Q30
+315,1924,Physiology or Medicine,Leiden University,https://www.wikidata.org/wiki/Q43631,https://www.wikipedia.org/wiki/Leiden,https://www.wikidata.org/wiki/Q55
+123,1983,Physics,California Institute of Technology (Caltech),https://www.wikidata.org/wiki/Q485176,"https://www.wikipedia.org/wiki/Pasadena,_California",https://www.wikidata.org/wiki/Q30
+65,1956,Physics,"Semiconductor Laboratory of Beckman Instruments, Inc.",https://www.wikidata.org/wiki/Q486860,"https://www.wikipedia.org/wiki/Mountain_View,_California",https://www.wikidata.org/wiki/Q30
+20,1915,Physics,University College,https://www.wikidata.org/wiki/Q84,https://www.wikipedia.org/wiki/London,https://www.wikidata.org/wiki/Q145
+916,2015,Physiology or Medicine,Drew University,https://www.wikidata.org/wiki/Q938359,"https://www.wikipedia.org/wiki/Madison,_New_Jersey",https://www.wikidata.org/wiki/Q30
+968,2018,Economic Sciences,Yale University,https://www.wikidata.org/wiki/Q49145,"https://www.wikipedia.org/wiki/New_Haven,_Connecticut",https://www.wikidata.org/wiki/Q30
+154,1997,Physics,National Institute of Standards and Technology,https://www.wikidata.org/wiki/Q752719,"https://www.wikipedia.org/wiki/Gaithersburg,_Maryland",https://www.wikidata.org/wiki/Q30
+911,2014,Chemistry,Stanford University,https://www.wikidata.org/wiki/Q173813,"https://www.wikipedia.org/wiki/Stanford,_California",https://www.wikidata.org/wiki/Q30
+209,1949,Chemistry,University of California,https://www.wikidata.org/wiki/Q484678,"https://www.wikipedia.org/wiki/Berkeley,_California",https://www.wikidata.org/wiki/Q30
+706,1990,Economic Sciences,Stanford University,https://www.wikidata.org/wiki/Q173813,"https://www.wikipedia.org/wiki/Stanford,_California",https://www.wikidata.org/wiki/Q30
+970,2019,Physiology or Medicine,Harvard Medical School,https://www.wikidata.org/wiki/Q100,https://www.wikipedia.org/wiki/Boston,https://www.wikidata.org/wiki/Q30
+970,2019,Physiology or Medicine,Howard Hughes Medical Institute,https://www.wikidata.org/wiki/Q5094454,"https://www.wikipedia.org/wiki/Chevy_Chase_(town),_Maryland",https://www.wikidata.org/wiki/Q30
+970,2019,Physiology or Medicine,Dana-Farber Cancer Institute,https://www.wikidata.org/wiki/Q100,https://www.wikipedia.org/wiki/Boston,https://www.wikidata.org/wiki/Q30
+970,2019,Physiology or Medicine,Brigham and Women's Hospital,https://www.wikidata.org/wiki/Q100,https://www.wikipedia.org/wiki/Boston,https://www.wikidata.org/wiki/Q30
+243,1972,Chemistry,Rockefeller University,https://www.wikidata.org/wiki/Q60,https://www.wikipedia.org/wiki/New_York_City,https://www.wikidata.org/wiki/Q30
+249,1976,Chemistry,Harvard University,https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+328,1934,Physiology or Medicine,Harvard University,https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+328,1934,Physiology or Medicine,Peter Brent Brigham Hospital,https://www.wikidata.org/wiki/Q100,https://www.wikipedia.org/wiki/Boston,https://www.wikidata.org/wiki/Q30
+716,1996,Economic Sciences,Columbia University,https://www.wikidata.org/wiki/Q60,https://www.wikipedia.org/wiki/New_York_City,https://www.wikidata.org/wiki/Q30
+63,1955,Physics,Stanford University,https://www.wikidata.org/wiki/Q173813,"https://www.wikipedia.org/wiki/Stanford,_California",https://www.wikidata.org/wiki/Q30
+739,2001,Physics,Massachusetts Institute of Technology (MIT),https://www.wikidata.org/wiki/Q49111,"https://www.wikipedia.org/wiki/Cambridge,_Massachusetts",https://www.wikidata.org/wiki/Q30
+137,1989,Physics,University of Bonn,https://www.wikidata.org/wiki/Q586,https://www.wikipedia.org/wiki/Bonn,https://www.wikidata.org/wiki/Q183
+50,1945,Physics,Princeton University,https://www.wikidata.org/wiki/Q138518,"https://www.wikipedia.org/wiki/Princeton,_New_Jersey",https://www.wikidata.org/wiki/Q30
+826,2008,Physics,"Enrico Fermi Institute, University of Chicago",https://www.wikidata.org/wiki/Q1297,https://www.wikipedia.org/wiki/Chicago,https://www.wikidata.org/wiki/Q30
+927,2016,Physiology or Medicine,Tokyo Institute of Technology,https://www.wikidata.org/wiki/Q1490,https://www.wikipedia.org/wiki/Tokyo,https://www.wikidata.org/wiki/Q17
+265,1986,Chemistry,University of California,https://www.wikidata.org/wiki/Q484678,"https://www.wikipedia.org/wiki/Berkeley,_California",https://www.wikidata.org/wiki/Q30
+794,2005,Chemistry,Institut Français du Pétrole,https://www.wikidata.org/wiki/Q193920,https://www.wikipedia.org/wiki/Rueil-Malmaison,https://www.wikidata.org/wiki/Q142
+726,2000,Physics,A.F. Ioffe Physico-Technical Institute,https://www.wikidata.org/wiki/Q656,https://www.wikipedia.org/wiki/Saint_Petersburg,https://www.wikidata.org/wiki/Q159
+766,2003,Physics,Argonne National Laboratory,NA,NA,https://www.wikidata.org/wiki/Q30
+56,1951,Physics,Atomic Energy Research Establishment,NA,NA,https://www.wikidata.org/wiki/Q145
+401,1973,Physiology or Medicine,"Konrad-Lorenz-Institut der Österreichischen Akademie der Wissen­schaften, Forschungsstelle für Ethologie",NA,NA,https://www.wikidata.org/wiki/Q40
+851,2010,Chemistry,University of Delaware,NA,NA,https://www.wikidata.org/wiki/Q30
+921,2015,Chemistry,Francis Crick Institute,NA,NA,https://www.wikidata.org/wiki/Q145
+921,2015,Chemistry,Clare Hall Laboratory,NA,NA,https://www.wikidata.org/wiki/Q145
